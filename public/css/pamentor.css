@@ -1,9 +1,21 @@
 /* CSS declarations go here */
-.top {
-	background-color: blue; 
-	height: 100px;
+body{
+	height: 100%;
+	font-family: 'Open Sans';
+}
+
+.landing {
+	display: block;
+	background-image: url(../img/mentor1.png); 
+	/*background-size: 500px;*/
+	height: auto;
+	z-index: 3;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
 }
 .mentor {
 	background-color: red; 
 	height: 100px;
+	z-index: 5;
 }
