@@ -3,7 +3,7 @@ if (Meteor.isClient) {
     return "Welcome to pamentor.";
   };
 
-  Template.hello.events({
+  Template.mainpage.events({
     'click input' : function () {
       // template data, if any, is available in 'this'
       if (typeof console !== 'undefined')
