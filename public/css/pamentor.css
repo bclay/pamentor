@@ -1,18 +1,32 @@
 /* CSS declarations go here */
+html,body {
+	margin: 0px;
+	padding: 0px;
+}
+
 body{
 	height: 100%;
 	font-family: 'Open Sans';
+	text-align: center;
 }
 
-.landing {
+.top {
 	display: block;
-	background-image: url(../img/mentor1.png); 
+	background-color: purple;
 	/*background-size: 500px;*/
 	height: auto;
 	z-index: 3;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
+	color: white;
+}
+
+.top-inner img {
+	float: left;
+}
+.top-inner h1 {
+	float: right;
 }
 .mentor {
 	background-color: red; 
