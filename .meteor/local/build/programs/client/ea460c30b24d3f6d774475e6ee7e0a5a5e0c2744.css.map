@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"file":"generated.css","sources":["pamentor.css"],"names":[],"mappings":"AAAA,8BAA8B;;AAC9B;EACC,sBAAsB;EACtB,aAAa;;;AAEd;EACC,qBAAqB;EACrB,aAAa","sourcesContent":["/* CSS declarations go here */\n.top {\n\tbackground-color: blue; \n\theight: 100px;\n}\n.mentor {\n\tbackground-color: red; \n\theight: 100px;\n}"]}
