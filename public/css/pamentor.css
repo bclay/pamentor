@@ -8,6 +8,11 @@ body{
 	height: 100%;
 	font-family: 'Open Sans';
 	text-align: center;
+
+}
+
+h1 {
+	font-weight: 200;
 }
 
 .top {
@@ -22,6 +27,12 @@ body{
 	color: white;
 }
 
+p, h2, h3{
+	font-weight: 200;
+}
+
+
+
 .top-inner img {
 	float: left;
 }
@@ -32,4 +43,53 @@ body{
 	background-color: red; 
 	height: 100px;
 	z-index: 5;
+}
+
+.comments {
+     /* same green as the mentorship picture, can't quite figure out the shade*/
+     background-color: #19D175;
+       margin: 0px;
+	padding: 0px;
+	height: 32px;
+	width: 100%;
+	
+	z-index: 0;
+	color: #FFFFFF;
+
+}
+
+.mentordivider {
+    margin: 0px;
+	padding: 0px;
+	height: 35px;
+	width: 100%;
+	background-color: purple;
+	z-index: 0;
+	color: #FFFFFF;
+
+}
+
+.contact {
+   margin: 0px;
+   padding: 0px;
+	height: 35px;
+	width: 100%;
+	background-color: purple;
+	z-index: 0;
+	color: #FFFFFF;
+}
+.hackers {
+	margin: 0px;
+	padding: 0px;
+	height: 35px;
+	width: 100%;
+	background-color: purple;
+	z-index: 0;
+	color: #FFFFFF;
+
+}
+
+.smalltext {
+	width: 500px;
+	margin: auto;
 }
