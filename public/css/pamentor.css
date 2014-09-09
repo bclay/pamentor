@@ -33,3 +33,15 @@ body{
 	height: 100px;
 	z-index: 5;
 }
+
+.purple{
+	background-color: purple;
+	color: white;
+}
+.purple h4{
+	color: #1bb99a;
+}
+.green{
+	background-color: #1bb99a;
+	color: white;
+}
