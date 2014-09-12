@@ -8,6 +8,7 @@ body{
 	height: 100%;
 	font-family: 'Open Sans';
 	text-align: center;
+
 }
 
 .top {
@@ -22,9 +23,13 @@ body{
 	color: white;
 	width: 100%;
 }
-a {
+.purple a {
 text-decoration: none;
 color: #1bb99a;
+}
+.green a {
+text-decoration: none;
+color: purple;
 }
 .top-inner img {
 	float: left;
@@ -46,6 +51,7 @@ h1{
 	width: 80%;
 	padding-left: 10%;
 	padding-right: 10%;
+	line-height: 2em;
 }
 .purple h2{
 	color: #1bb99a;
@@ -57,6 +63,7 @@ h1{
 	width: 80%;
 	padding-left: 10%;
 	padding-right: 10%;
+	line-height: 2em;
 }
 .green h2{
 	color: purple;
