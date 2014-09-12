@@ -1,7 +1,9 @@
-<div class="hidden"><meta property="og:image" content="http://the-dining-philosophers.github.io/code-weekend/assets/img/logo.png"><link rel="shortcut icon" href="assets/images/favicon.png"><link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"><link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' type='text/css'><link rel="stylesheet" href="assets/css/typography.css"><link rel="stylesheet" href="assets/css/markdown.css"></div><div class="nav-items"><div class="nav-item" id="setup-menu">Intro</div><div class="nav-item" id="node-menu">CSS</div><div class="nav-item" id="apis-menu">Bootstrap</div><div class="nav-item" id="dbs-menu">Resources</div></div>
+<div class="hidden"><meta property="og:image" content="http://the-dining-philosophers.github.io/code-weekend/assets/img/logo.png"><link rel="shortcut icon" href="assets/images/favicon.png"><link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"><link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' type='text/css'><link rel="stylesheet" href="assets/css/typography.css"><link rel="stylesheet" href="assets/css/markdown.css"></div>
 
 Using Node.js to write a server app<a id="setup-section"></a>
 ==================================
+
+First of all, we gave a whole series of lectures about Node at [Code Weekend](http://the-dining-philosophers.github.io/code-weekend/). You should check it out if you're interested in learning Node!
 
 An important piece of any complete web application is a server backend. Users make requests to your server, which then returns web pages to them as responses. One of the simplest and most lightweight frameworks is Node.js, making it an excellent choice for beginners. Node.js allows users to write server side code in JavaScript. If you would like to try a different option for your app, you could also try Ruby on Rails, which based on the Ruby language, and Django, which is based on Python. Almost every language has a corresponding backend framework or library.
 
@@ -38,11 +40,22 @@ Mozilla's JavaScript documentation: https://developer.mozilla.org/en-US/docs/Web
 Stackoverflow also has solutions to many common issues. It will be your best friend: stackoverflow.com
 
 
-<div class="footer"><p>&copy; PennApps 2014. Page design by <a href="http://pvrnav.com">Pranav Vishnu Ramabhadran</a>. Workshop designed by <a href="http://github.com/bclay/">Brynn Claypoole</a>.</div>
+<div class="footer"><p>&copy; PennApps 2014. Page design by <a href="http://pvrnav.com">Pranav Vishnu Ramabhadran</a>. Resources compiled by PennApps Mentoring.</div>
 
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="assets/js/nav.js"></script>
 <script src="assets/js/FlowType.js"></script>
 <script type="text/javascript">
-
+    $('body').flowtype({
+        minimum   : 500,
+        maximum   : 1000,
+        minFont   : 16,
+        maxFont   : 65,
+        fontRatio : 40
+    });
+</script>
+<script>
+    $(window).load(function(){
+        $('.loading').fadeOut('200');
+    });
 </script>
