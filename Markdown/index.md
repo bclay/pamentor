@@ -10,11 +10,11 @@ We think hackathons should be about learning and meeting new people, so we're he
 
 ###Code Weekend
 
-PennApps has teamed up with The Dining Philosophers to teach new hackers how to make web apps. Code Weekend was two days of learning on Saturday September 6 and Sunday September 7 in the Penn Engineering quad. 
+PennApps has teamed up with The Dining Philosophers to teach new hackers how to make web apps. 
 
 There were four tutorials over the course of the weekend. The first was about the basics of the Internet, including HTML, CSS, Javascript, and how they interact on a web page. The second was an introduction to Node. Talk three went over how to integrate the Venmo API into a Node app, and the fourth was about MongoDB integration.
 
-[Click here](http://the-dining-philosophers.github.io/code-weekend/) to see all the information from the tutorials, including slides, code samples (split into milestones), and essentially a transcript from the first session!
+[Click here](http://dinphil.github.io/code-weekend/) to see all the information from the tutorials, including slides, code samples (split into milestones), and essentially a transcript from the first session!
 
 ###Tech Talks
 We had tons of talks from both company reps and Penn students on a variety of technical topics. [Click here](./TechTalks.html) for a listing of the talks!
