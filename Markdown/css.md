@@ -5,17 +5,6 @@ Web Design 101
 Building your first (pretty) website
 --------------------------
 
-Below are notes from a talk given by Brynn Claypoole to teach beginners the basics of web design tools as part of the PennApps Tech Talk series. 
-
-Here's what I expect you to gain from this talk:
-
-- What HTML/CSS/Javascript are, and how they interact.
-- How web pages are organized (the DOM).
-- Basic elements of CSS, including the cascading nature, margins, padding, different ways to indicate sizes and colors, "floating", aligning, and simple animations.
-- How to borrow other people's premade templates/elements, including Google Fonts, free licenses, and how to understand Github well enough to get code from it. 
-- What is Bootstrap, and how to use templates or elements to create your own website.
-- Resources to learn more and look things up at a later date.
-
 Intro to Websites <a id="setup-section"></a>
 ==================================
 The first steps to making your website beautiful
@@ -31,11 +20,17 @@ CSS dresses up this information. Most (but really all) webpages link to a CSS fi
 
 Javascript is the fun part. It does dynamic things with your webpage, updates content on the fly and can animate just about anything. We'll talk about this later.
 
+HTML <a id="node-section"></a>
+==================================
+
+HTML stands for HyperText Markup Lanuage. It is HyperText because it hyperlinks you to other text. It is a markup language because it is not written as plain text. It is marked up into the form of HTML elements called tags.
+
 ### What is the DOM?
 
-Every webpage is built in the HTML DOM (Document Object Model). This means that every element in the HTML is an element (or a Node, the mathamatical kind - not to be confused with Node.JS). So we could call this paragraph an element in the DOM; the same is true of any of the images and pretty much everything else here.
+Every webpage is built in the HTML DOM (Document Object Model). This means that every element in the HTML code is an element (or a Node, the mathematical kind - not to be confused with Node.JS). So we could call this paragraph an element in the DOM; the same is true of any of the images and pretty much everything else here.
 
 ![The DOM](http://courses.cs.washington.edu/courses/cse190m/07sp/lectures/slides/images/dom_tree.gif)
+
 
 CSS <a id="node-section"></a>
 ==================================
@@ -121,7 +116,11 @@ There are tons of resources out there to help with CSS and design:
 
 - [Dash](https://dash.generalassemb.ly) has really great tutorials for learning CSS.
 
+- [Treehouse](https://teamtreehouse.com/signup_code/hackru)
 
+
+
+This guide was provided by Brynn Claypoole.
 
 <div class="footer"><p>&copy; PennApps 2014. Page design by <a href="http://pvrnav.com">Pranav Vishnu Ramabhadran</a>. Workshop designed by <a href="http://github.com/bclay/">Brynn Claypoole</a>.</div>
 

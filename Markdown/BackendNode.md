@@ -3,7 +3,7 @@
 Using Node.js to write a server app<a id="setup-section"></a>
 ==================================
 
-First of all, we gave a whole series of lectures about Node at [Code Weekend](http://the-dining-philosophers.github.io/code-weekend/). You should check it out if you're interested in learning Node!
+First of all, we gave a whole series of lectures about Node at [Code Weekend](http://dinphil.github.io/code-weekend/). Also [here's](https://www.youtube.com/embed/q81s6CJHp5Q) about Node.js. You should check both out if you're interested in learning Node!
 
 An important piece of any complete web application is a server backend. Users make requests to your server, which then returns web pages to them as responses. One of the simplest and most lightweight frameworks is Node.js, making it an excellent choice for beginners. Node.js allows users to write server side code in JavaScript. If you would like to try a different option for your app, you could also try Ruby on Rails, which based on the Ruby language, and Django, which is based on Python. Almost every language has a corresponding backend framework or library.
 
@@ -11,11 +11,11 @@ An important piece of any complete web application is a server backend. Users ma
 
 For those interested in learning Node, there are many excellent resources.
 
-The Official Node website, including documentation, is at nodejs.org
+The [Official Node website](nodejs.org), has a lot of documentation.
 
-A very good starting tutorial is the Node Beginner Book, which is at http://www.nodebeginner.org/
+A very good starting tutorial is the [Node Beginner Book](http://www.nodebeginner.org).
 
-For a more technical overview, you can watch the tech talk by Ryan Dahl, the creator of Node.js at http://www.youtube.com/watch?v=jo_B4LTHi3I
+For a more technical overview, you can watch the [tech talk](http://www.youtube.com/watch?v=jo_B4LTHi3I) by Ryan Dahl, the creator of Node.js/
 
 If you don't like either of these, a simple google search for "Node.js tutorials" or something similar will provide many free options.
 
@@ -23,21 +23,21 @@ If you don't like either of these, a simple google search for "Node.js tutorials
 
 If you are new to JavaScript, it is a good idea to get comfortable with it before diving into node. Javascript is a extremely important part of web development, even for apps not using node.There are plenty of good JavaScript tutorials, including:
 
-Eloquent JavaScript, a good book for beginners to JavaScript or programming in general: http://eloquentjavascript.net/
+[Eloquent JavaScript](http://eloquentjavascript.net), a good book for beginners to JavaScript or programming in general.
 
-Code academy, a free, hands on tutorial to many web technologies, including JavaScript: http://www.codecademy.com/tracks/javascript?curriculum_id=506324b3a7dffd00020bf661
+[Code academy](http://www.codecademy.com/tracks/javascript?curriculum_id=506324b3a7dffd00020bf661), a free, hands on tutorial to many web technologies, including JavaScript.
 
 As with above, plenty of other options can be found easily through Google.
 
 ### Documentation 
 
-Use these resources for specific info, rather than to learn from scratch:
+Use these resources for specific info, rather than learning from scratch:
 
-The Node.js official documentation: http://nodejs.org/api/
+[The Node.js official documentation](http://nodejs.org/api/)
 
-Mozilla's JavaScript documentation: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+[Mozilla's JavaScript documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-Stackoverflow also has solutions to many common issues. It will be your best friend: stackoverflow.com
+[Express Guide to Node and Express](http://shapeshed.com/creating-a-basic-site-with-node-and-express/)
 
 
 <div class="footer"><p>&copy; PennApps 2014. Page design by <a href="http://pvrnav.com">Pranav Vishnu Ramabhadran</a>. Resources compiled by PennApps Mentoring.</div>

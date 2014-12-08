@@ -9,14 +9,13 @@ Android is the most widely used mobile operating system in the world. Unlike its
 Resources <a id="api-section"></a>
 ==================================
 
-http://developer.android.com/training/basics/firstapp/index.html
+[Build a simple app](http://developer.android.com/training/basics/firstapp/index.html)
 
-http://www.techrepublic.com/blog/app-builder/a-newbies-guide-to-android-development/1216
+[More about Android development for beginners](http://www.techrepublic.com/blog/app-builder/a-newbies-guide-to-android-development/1216)
 
-(If you’d like to install eclipse, a great way to build Java and Android apps, go here)
-http://www.eclipse.org/downloads/
+If you’d like to install eclipse, a great way to build Java and Android apps, [go here](http://www.eclipse.org/downloads/)
 
-(If you already have eclipse) http://www.codeproject.com/Articles/102065/Android-A-beginner-s-guide
+[This](http://www.codeproject.com/Articles/102065/Android-A-beginner-s-guide) is a great beginner guide to Android!
 
 <div class="footer"><p>&copy; PennApps 2014. Page design by <a href="http://pvrnav.com">Pranav Vishnu Ramabhadran</a>. Resources compiled by PennApps Mentoring.</div>
 

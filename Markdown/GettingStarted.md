@@ -3,7 +3,12 @@
 What to Build as a Beginner?<a id="setup-section"></a>
 ==================================
 
-If you are new to programming, we strongly recommend that you start by building a personal website. It does not have to be fancy (just some information about you, links to social media, and a basic design will work), but it will give you experience designing a basic “app” and publishing it for the world to see! If you’ve had some basic experience and feel comfortable with your ability to build and deploy an app, we’d recommend you look at our “ideas” doc for several suggestions made by people from the Philadelphia community.
+
+If you are new to programming, we strongly recommend that you start by building a personal website. It does not have to be fancy (just some information about you, links to social media, and a basic design will work), but it will give you experience designing a basic “app” and publishing it for the world to see! Check out [Pranav](http://pvrnav.com) and [Derek's](http://derekjobst.com/) for some website inspiration. 
+
+If you’ve had some basic experience and feel comfortable with your ability to build and deploy an app, we’d recommend you look at our “ideas” doc for several suggestions made by people from the Philadelphia community.
+
+The interenet has a lot of helpful reasources to help you sort through troubleshooting your code and learn new code. Two extremely helpful reasources are: [Code Academy](http://www.codeacademy.com) and [Stack Overflow](http://stackoverflow.com). You should try searching something on each of these websites now to familiarize yourself with the setup.
 
 <div class="footer"><p>&copy; PennApps 2014. Page design by <a href="http://pvrnav.com">Pranav Vishnu Ramabhadran</a>. Resources compiled by PennApps Mentoring.</div>
 

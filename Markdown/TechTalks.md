@@ -11,6 +11,9 @@ These tech talks cover a number of topics useful for hacking!
 ###[Flowbased Programming presented by MIT Lincoln Lab](https://www.youtube.com/watch?v=3oaelUXh7sE)
 
 ###[PennApps Youtube Channel](https://www.youtube.com/channel/UC-h8xml0Ov13TZv0Oq-iMXw/videos)
+[HTML/CSS](https://www.youtube.com/embed/wxCWoTFV-UQ)
+[Javascript](https://www.youtube.com/embed/gMo9ATiMXrw)
+[Node.js]()
 
 ###Code Weekend Talks
 [Node.js](https://www.youtube.com/watch?v=DQZX5LI4o-s&list=UUy2O0ho7kMfI588UQi5BGzQ)

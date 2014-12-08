@@ -122,8 +122,7 @@ As I’ve said multiple times throughout this guide, if you want to learn more a
 1) Discover DevTools on Code School: Easy to understand, split up into different sections, each section followed by a simple yet effective interactive challenge.
 2) Chrome Developers page on DevTools: This is the official documentation on DevTools, and if you want to know something about DevTools, it’s guaranteed to be on here. Some parts might talk about things you might not know, but don’t be intimidated by that. It contains information for both beginners and more advanced users of DevTools.
 
-If you have any questions or comments about this guide, my name is Emre and email is: tanirganemre (at) gmail. Feel free to email me, and thanks for reading!
-
+This information was created by [Emre](http://emretanirgan.com)
 
 <div class="footer"><p>&copy; PennApps 2014. Page design by <a href="http://pvrnav.com">Pranav Vishnu Ramabhadran</a>. Resources compiled by PennApps Mentoring.</div>
 
