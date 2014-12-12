@@ -2,14 +2,14 @@
 
 Newbie Hacker Guides <a id="setup-section"></a>
 ==================================
-Click the links below learn about these topics.
+Check out the links below learn about these topics.
 ------------------------------------
 
 If you are new to programming, we strongly recommend that you start by building a personal website. It does not have to be fancy (just some information about you, links to social media, and a basic design will work), but it will give you experience designing a basic “app” and publishing it for the world to see! Check out [Pranav](http://pvrnav.com) and [Derek's](http://derekjobst.com/) for some design inspiration. We reccommend you read through the HTML/CSS and Git guids as this is how you make a personal website
 
-If you’ve had some basic experience and feel comfortable with your ability to build and deploy an app look at some of the more advanced guides. <!-- IDEAS FROM DINPHIL HERE -->
+If you’ve had some basic experience and feel comfortable with your ability to build and deploy an app look at some of the more advanced guides.
 
-The interenet has a lot of helpful reasources to help you sort through troubleshooting your code and learn new code. Three extremely helpful reasources are: [Code Academy](http://www.codeacademy.com), [Bento box](https://teamtreehouse.com/signup_code/hackru), and [Stack Overflow](http://stackoverflow.com). You should try searching something on each of these websites now to familiarize yourself with the setup.
+The internet has a lot of helpful reasources to help you sort through troubleshooting your code and learn new code. Three extremely helpful reasources are: [Code Academy](http://www.codeacademy.com), [Bento box](https://teamtreehouse.com/signup_code/hackru), and [Stack Overflow](http://stackoverflow.com). You should try searching something on each of these websites now to familiarize yourself with the setup.
 
 ### [HTML/CSS](./css.html)
 ### [Git](./css.html)

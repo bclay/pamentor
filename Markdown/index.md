@@ -6,23 +6,21 @@ We think hackathons should be about learning and meeting new people, so we're he
 
 <!--- -->
 
-###At PennApps
-
-Before PennApps you should sign up to be a [mentor](https://docs.google.com/forms/d/1UrD85sE_KSKmRjiAHjWeyPaAEVDaaj24LCZNCb06A50/edit?usp=sharing) or be mentored.
-
-At PennApps there will be several events for our new hackers. On Friday, we'll be having a mentorship dinner where you can mix and mingle with the mentors to find out how they can be most useful to you throughout the hackathon. The hub of mentoring will be in the Accenture Engineering Cafe located in the Levine Building of the engineering quad. This is where you're most likely to find mentors as well. To reach out to mentors from where you're hacking or if they're not in the Cafe check out my.pennapps.com for the mentor database. 
 
 ###Beginner Guides
 To help you learn to hack we have our archive of [tech talks](./TechTalks.html) and [content](./toc.html) developed by the team on lots of useful topics. 
 
 ###The Dining Philosophers Partnership
 
-PennApps has teamed up with The Dining Philosophers to teach new hackers the basics of hacking!
+PennApps has teamed up with The Dining Philosophers to teach new hackers the basics of hacking! The Dining Philosophers has a bunch of homegrown workshops and tutorials on all sorts of useful subjects for new hackers like HTML, CSS, and Javascript. [Click here](http://dinphil.github.io) to see all the information from the tutorials, including slides, and code samples. There are also ideas for good projects for new hackers.
 
-Code Weekend was an event to teach new hackers how to build web apps. There were four tutorials over the course of the weekend. The first was about the basics of the Internet, including HTML, CSS, Javascript, and how they interact on a web page. The second was an introduction to Node. Talk three went over how to integrate the Venmo API into a Node app, and the fourth was about MongoDB integration. [Click here](http://dinphil.github.io/code-weekend/) to see all the information from the tutorials, including slides, code samples (split into milestones), and essentially a transcript from the first session!
+###At PennApps
 
+Before PennApps you should sign up to be a [mentor](https://docs.google.com/forms/d/1UrD85sE_KSKmRjiAHjWeyPaAEVDaaj24LCZNCb06A50/edit?usp=sharing). At check-in at PennApps you can sign-up to be mentored.
 
-<div class="footer"><p>&copy; PennApps 2014. Page design by <a href="http://pvrnav.com">Pranav Vishnu Ramabhadran</a>. Workshop designed by <a href="http://github.com/bclay/">Brynn Claypoole</a>.</div>
+At PennApps there will be several events for our new hackers. On Friday, we'll be having a mentorship dinner where you can mix and mingle with the mentors to find out how they can be most useful to you throughout the hackathon. The hub of mentoring will be in the Accenture Engineering Cafe located in the Levine Building of the engineering quad. This is where you're most likely to find mentors as well. To reach out to mentors from where you're hacking or if they're not in the Cafe check out [my.pennapps.com](https://my.pennapps.com/login) for the mentor database. The mentor database has a list of all registered mentors and their technical skills.
+
+<div class="footer"><p>&copy; PennApps 2014. Page design by <a href="http://pvrnav.com">Pranav Vishnu Ramabhadran</a>. Workshop designed by <a href="http://github.com/bclay/">Brynn Claypoole</a>. Contact us at mentoring (at) pennapps.com</div>
 
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="assets/js/nav.js"></script>
