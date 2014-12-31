@@ -1,14 +1,168 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><title>JQuery</title></head><body><article class="markdown-body"><div></div>
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>.codehilite pre .hll { background-color: #f8eec7 }
+.codehilite pre  { background: #ffffff; color: #333333 }
+.codehilite pre .c { color: #999988; font-style: italic } /* Comment */
+.codehilite pre .err { color: #a61717; background-color: #e3d2d2 } /* Error */
+.codehilite pre .k { font-weight: bold } /* Keyword */
+.codehilite pre .n { color: #333333 } /* Name */
+.codehilite pre .o { font-weight: bold } /* Operator */
+.codehilite pre .cm { color: #999988; font-style: italic } /* Comment.Multiline */
+.codehilite pre .cp { color: #999999; font-weight: bold } /* Comment.Preproc */
+.codehilite pre .c1 { color: #999988; font-style: italic } /* Comment.Single */
+.codehilite pre .cs { color: #999988; font-style: italic } /* Comment.Special */
+.codehilite pre .gd { color: #000000; background-color: #ffdddd } /* Generic.Deleted */
+.codehilite pre .ge { font-style: italic } /* Generic.Emph */
+.codehilite pre .gr { color: #aa0000 } /* Generic.Error */
+.codehilite pre .gh { color: #999999 } /* Generic.Heading */
+.codehilite pre .gi { color: #000000; background-color: #ddffdd } /* Generic.Inserted */
+.codehilite pre .go { color: #888888 } /* Generic.Output */
+.codehilite pre .gp { color: #555555 } /* Generic.Prompt */
+.codehilite pre .gs { font-weight: bold } /* Generic.Strong */
+.codehilite pre .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+.codehilite pre .gt { color: #aa0000 } /* Generic.Traceback */
+.codehilite pre .kc { font-weight: bold } /* Keyword.Constant */
+.codehilite pre .kd { font-weight: bold } /* Keyword.Declaration */
+.codehilite pre .kn { font-weight: bold } /* Keyword.Namespace */
+.codehilite pre .kp { font-weight: bold } /* Keyword.Pseudo */
+.codehilite pre .kr { font-weight: bold } /* Keyword.Reserved */
+.codehilite pre .kt { font-weight: bold } /* Keyword.Type */
+.codehilite pre .m { color: #945277 } /* Literal.Number */
+.codehilite pre .s { color: #df5000 } /* Literal.String */
+.codehilite pre .na { color: #008080 } /* Name.Attribute */
+.codehilite pre .nb { color: #0086b3 } /* Name.Builtin */
+.codehilite pre .nc { color: #445588; font-weight: bold } /* Name.Class */
+.codehilite pre .no { color: #094e99 } /* Name.Constant */
+.codehilite pre .nd { color: #333333 } /* Name.Decorator */
+.codehilite pre .ni { color: #800080 } /* Name.Entity */
+.codehilite pre .ne { color: #990000; font-weight: bold } /* Name.Exception */
+.codehilite pre .nf { color: #945277; font-weight: bold } /* Name.Function */
+.codehilite pre .nl { color: #333333 } /* Name.Label */
+.codehilite pre .nn { color: #555555 } /* Name.Namespace */
+.codehilite pre .nx { color: #333333 } /* Name.Other */
+.codehilite pre .py { color: #333333 } /* Name.Property */
+.codehilite pre .nt { color: #000080 } /* Name.Tag */
+.codehilite pre .nv { color: #008080 } /* Name.Variable */
+.codehilite pre .ow { font-weight: bold } /* Operator.Word */
+.codehilite pre .w { color: #bbbbbb } /* Text.Whitespace */
+.codehilite pre .mb { color: #945277 } /* Literal.Number.Bin */
+.codehilite pre .mf { color: #945277 } /* Literal.Number.Float */
+.codehilite pre .mh { color: #945277 } /* Literal.Number.Hex */
+.codehilite pre .mi { color: #945277 } /* Literal.Number.Integer */
+.codehilite pre .mo { color: #945277 } /* Literal.Number.Oct */
+.codehilite pre .sb { color: #df5000 } /* Literal.String.Backtick */
+.codehilite pre .sc { color: #df5000 } /* Literal.String.Char */
+.codehilite pre .sd { color: #df5000 } /* Literal.String.Doc */
+.codehilite pre .s2 { color: #df5000 } /* Literal.String.Double */
+.codehilite pre .se { color: #df5000 } /* Literal.String.Escape */
+.codehilite pre .sh { color: #df5000 } /* Literal.String.Heredoc */
+.codehilite pre .si { color: #df5000 } /* Literal.String.Interpol */
+.codehilite pre .sx { color: #df5000 } /* Literal.String.Other */
+.codehilite pre .sr { color: #017936 } /* Literal.String.Regex */
+.codehilite pre .s1 { color: #df5000 } /* Literal.String.Single */
+.codehilite pre .ss { color: #8b467f } /* Literal.String.Symbol */
+.codehilite pre .bp { color: #999999 } /* Name.Builtin.Pseudo */
+.codehilite pre .vc { color: #008080 } /* Name.Variable.Class */
+.codehilite pre .vg { color: #008080 } /* Name.Variable.Global */
+.codehilite pre .vi { color: #008080 } /* Name.Variable.Instance */
+.codehilite pre .il { color: #945277 } /* Literal.Number.Integer.Long */</style><title>JQuery</title></head><body><article class="markdown-body"><div class="hidden"><meta property="og:image" content="http://2015s.pennapps.com/assets/images/logo.png"><link rel="shortcut icon" href="http://2015s.pennapps.com/assets/images/logo.png"><link rel="stylesheet" href="assets/css/global.css"><link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"><link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' type='text/css'></div>
 
-<p>JQuery</p>
+<div class="nav-items"><a href="index.html"><img src="assets/img/logo.svg"></a></div>
 
+<h1 id="jquery"><a name="user-content-jquery" href="#jquery" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>JQuery</h1>
 <p>JQuery is a helpful Javascript library that makes possible to bring webpages to life without going insane. It provides helpers for DOM manipulation, event binding, AJAX requests, and even animations. JQuery is compatible with nearly all browsers (including oldies like IE) and has a wide range of plugins available that extend its functionality even further.</p>
-
 <p>This guide will assume some knowledge of programming and HTML/CSS but extensive practice of Javascript will not be required to understand it. However, the better you know the language the more dangerous you’ll be when you sit down to program. For an excellent primer in the Javascript language (as well as a look at how miserable events are without JQuery!), <a href="http://eloquentjavascript.net/">go here</a>.</p>
-
 <ol>
-<li>Getting set up
-This part is easy. Just put 
+<li>Getting set up<br />
+This part is easy. Just put <br />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script><br />
+right before the </body> tag in your HTML. This loads the JQuery script  onto the page and lets you call its methods with $. Of course, can also provide it yourself rather than relying on Google, but this is the easiest way.</li>
+</ol>
+<p>Right under that snippet, put another script tag, like so: </p>
+<div class="codehilite"><pre><span class="nt">&lt;script&gt;</span>
+    $(‘document’).ready(function(){
+        //Your JQuery and Javascript code goes here
+}); 
+<span class="nt">&lt;/script&gt;</span>
+</pre></div>
 
-right before the </li>
-</ol></article></body></html>
+
+<p>This tells JQuery to wait until the document is loaded, and then run whatever code you put in the body of the function.</p>
+<ol>
+<li>DOM Manipulation</li>
+</ol>
+<p>Check out the <a href="./css.html">HTML/CSS</a> page to learn about the DOM.</p>
+<p>JQuery makes it really easy to add, remove, and change DOM nodes. For instance, if we wanted to create a new <code>&lt;h2&gt;</code> element that said “PennApps rocks,” we would write</p>
+<div class="codehilite"><pre><span class="err">$</span><span class="p">(</span><span class="err">‘</span><span class="o">&lt;</span><span class="vg">h2</span><span class="o">&gt;</span><span class="err">’</span><span class="p">)</span><span class="o">.</span><span class="vg">html</span><span class="p">(</span><span class="err">‘</span><span class="vg">PennApps</span><span class="w"> </span><span class="vg">rocks</span><span class="err">’</span><span class="p">);</span>
+</pre></div>
+
+
+<p>Now, while this has created a new DOM node like we wanted, it isn’t actually inserted into the DOM anywhere. To do that, we would write:</p>
+<div class="codehilite"><pre><span class="vg">var</span><span class="w"> </span><span class="vg">header</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="err">$</span><span class="p">(</span><span class="err">‘</span><span class="o">&lt;</span><span class="vg">h2</span><span class="o">&gt;</span><span class="err">’</span><span class="p">)</span><span class="o">.</span><span class="vg">html</span><span class="p">(</span><span class="err">‘</span><span class="vg">PennApps</span><span class="w"> </span><span class="vg">rocks</span><span class="err">’</span><span class="p">);</span><span class="w"> </span>
+<span class="err">$</span><span class="p">(</span><span class="err">‘</span><span class="vg">body</span><span class="err">’</span><span class="p">)</span><span class="o">.</span><span class="vg">append</span><span class="p">(</span><span class="vg">header</span><span class="p">);</span>
+</pre></div>
+
+
+<p>This will insert the header at the very end of the body. If we had wanted it at the beginning, we could have used prepend. </p>
+<p>But for every yin, there must be a yang; and so to balance the power of insertion, we must wield the power of deletion. To remove the header element from the DOM: </p>
+<div class="codehilite"><pre><span class="vg">header</span><span class="o">.</span><span class="vg">remove</span><span class="p">();</span>
+</pre></div>
+
+
+<p>Finding nodes in the DOM</p>
+<p>One of the most common tasks you’ll use JQuery for is finding all nodes in the DOM that match certain criteria. For instance, you might want to find all paragraphs in order to change their style or make some other changes.</p>
+<p>For this, it helps to know some CSS selectors, because JQuery can find nodes just the same way a style sheet does. In CSS you could color all paragraphs red with:</p>
+<div class="codehilite"><pre><span class="vg">p</span><span class="w"> </span><span class="o">/*</span><span class="w"> </span><span class="err">←</span><span class="w"> </span><span class="vg">this</span><span class="w"> </span><span class="vg">is</span><span class="w"> </span><span class="vg">the</span><span class="w"> </span><span class="vg">selector!</span><span class="w"> </span><span class="o">*/</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nl">color:</span><span class="w"> </span><span class="vg">red</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<p>You could do the same thing in JQuery as well, in much the same way: </p>
+<div class="codehilite"><pre><span class="err">$</span><span class="p">(</span><span class="err">‘</span><span class="vg">p</span><span class="err">’</span><span class="p">)</span><span class="o">.</span><span class="vg">css</span><span class="p">(</span><span class="err">‘</span><span class="vg">color</span><span class="err">’</span><span class="p">,</span><span class="w"> </span><span class="err">‘</span><span class="vg">red</span><span class="err">’</span><span class="p">);</span>
+</pre></div>
+
+
+<p>You use the same ‘p’ selector here as in the CSS, and in both it selected all <code>&lt;p&gt;</code> tags in the DOM. Two other common selectors are the class selector ‘.class-name’ and the id selector ‘#id-name.’ For a list of more advanced selectors in JQuery please see <a href="http://api.jquery.com/?s=selectors">http://api.jquery.com/?s=selectors</a>.</p>
+<p>Method Chaining<br />
+It would be a real pain to have to write out the same selector over and over just to change multiple properties on an element. Luckily, JQuery has a neat trick; every one of its methods returns the original JQuery object that you create when you write the selector! This way, you can just chain the methods one after another, like so:</p>
+<div class="codehilite"><pre><span class="vg">var</span><span class="w"> </span><span class="vg">myNode</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="err">$</span><span class="p">(</span><span class="err">‘#</span><span class="vg">myID</span><span class="err">’</span><span class="p">)</span><span class="o">.</span><span class="vg">css</span><span class="p">(</span><span class="err">‘</span><span class="vg">color</span><span class="err">’</span><span class="p">,</span><span class="w"> </span><span class="err">‘</span><span class="vg">red</span><span class="err">’</span><span class="p">)</span><span class="o">.</span><span class="vg">attr</span><span class="p">(</span><span class="err">‘</span><span class="vg">width</span><span class="err">’</span><span class="p">,</span><span class="w"> </span><span class="err">‘</span><span class="il">500</span><span class="vg">px</span><span class="err">’</span><span class="p">)</span><span class="o">.</span><span class="vg">css</span><span class="p">(</span><span class="err">‘</span><span class="vg">width</span><span class="err">’</span><span class="vg">border</span><span class="err">’</span><span class="p">,</span><span class="w"> </span><span class="err">‘</span><span class="il">1</span><span class="vg">px</span><span class="w"> </span><span class="vg">solid</span><span class="w"> </span><span class="vg">blue</span><span class="err">’</span><span class="p">);</span>
+</pre></div>
+
+
+<p>Event Binding (clicks, keypresses, and more)</p>
+<p>JQuery makes it easy to make something happen when a user clicks the a button or presses a key. Once you’ve selected the node you want to bind the event to (either via selectors as shown above, or by creating the node in the Javascript and storing it as a variable), you can use the .click(), .keypress(), and a host of other event binding methods to do some seriously cool stuff. Google and Stack Overflow will be your best bet for finding out how to do something specific (like binding only to the ‘up’ arrow for example).</p>
+<p>JQuery also supports touch events, although unfortunately not with a nice helper method like ‘click().’ You have to bind to touch events manually like so: </p>
+<div class="codehilite"><pre><span class="err">$</span><span class="p">(</span><span class="err">‘#</span><span class="vg">myButton</span><span class="err">’</span><span class="p">)</span><span class="o">.</span><span class="vg">on</span><span class="p">(</span><span class="err">‘</span><span class="vg">touchstart</span><span class="err">’</span><span class="p">,</span><span class="w"> </span><span class="vg">function</span><span class="p">(){</span>
+<span class="w">    </span><span class="vg">alert</span><span class="p">(</span><span class="err">‘</span><span class="vg">You</span><span class="w"> </span><span class="vg">touched</span><span class="w"> </span><span class="vg">the</span><span class="w"> </span><span class="vg">button!</span><span class="w"> </span><span class="vg">Hooray!</span><span class="err">’</span><span class="p">);</span>
+<span class="p">});</span>
+</pre></div>
+
+
+<p>This will open a popup window when a user touches the button with id=”myButton” (but not clicks with a mouse).</p>
+<p>You can also use .on() to bind to custom events that you can name yourself. This can be really useful in a lot of situations; for instance, you might have a ‘save’ event that gets triggered every time the user clicks a save button. Here is an example of such a setup:</p>
+<div class="codehilite"><pre><span class="err">$</span><span class="p">(</span><span class="err">‘#</span><span class="vg">savebutton</span><span class="err">’</span><span class="p">)</span><span class="o">.</span><span class="vg">on</span><span class="p">(</span><span class="err">‘</span><span class="vg">save</span><span class="err">’</span><span class="p">,</span><span class="w"> </span><span class="vg">function</span><span class="p">(){</span>
+<span class="w">    </span><span class="vg">alert</span><span class="p">(</span><span class="err">‘</span><span class="vg">Saving</span><span class="err">’</span><span class="p">);</span>
+<span class="p">});</span>
+<span class="err">$</span><span class="p">(</span><span class="err">‘#</span><span class="vg">savebutton</span><span class="err">’</span><span class="p">)</span><span class="o">.</span><span class="vg">trigger</span><span class="p">(</span><span class="err">‘</span><span class="vg">save</span><span class="err">’</span><span class="p">);</span><span class="w"> </span><span class="o">//</span><span class="vg">Alerts</span><span class="w"> </span><span class="err">‘</span><span class="vg">Saving</span><span class="err">’</span>
+</pre></div>
+
+
+<p>This can be really useful for situations in which you need a few events, or you need a lightweight ‘event bus’ that you can hook into different parts of your application. Such a use case is actually a little beyond JQuery, but if you’re interested, check out some frameworks like Backbone that have a more robust event system keyed into model data.</p>
+<p>Animations</p>
+<p>Rather from simply inserting elements into the DOM, JQuery provides a few functions to make their entrance and exit a little more polished. The simplest of these are fadeIn() and fadeOut(), which are pretty self explanatory; the element is phased from invisible to visible, or vice-versa. But you can also program custom animations based on CSS properties via the animate() function, or chain multiple animate() calls. Now, with only JQuery loaded you can only animate numerical properties; but if you want to animate colors or other properties, you should check out some&hellip;</p>
+<p>JQuery Plugins</p>
+<p>JQuery is open source and fully extensible, and it has a lot of really great plugins to extend its core functionality. Some are pretty much libraries in their own right, like JQuery UI, a collection of extremely useful interactive components; some are much smaller and a lot less documented (such as verdict.js). Plugins can be loaded with a <code>&lt;script&gt;</code> tag the same way as JQuery itself, and there is virtually guaranteed to be a plugin for anything you can think of. </p>
+<div class="footer"><p>&copy; PennApps 2015. Page design by <a href="http://pvrnav.com">Pranav Vishnu Ramabhadran</a>. Resources compiled by PennApps Mentoring.</div>
+
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+<script src="assets/js/FlowType.js"></script>
+
+<script type="text/javascript">
+    $('body').flowtype({
+        minimum   : 500,
+        maximum   : 1000,
+        minFont   : 16,
+        maxFont   : 65,
+        fontRatio : 40
+    });
+</script></article></body></html>

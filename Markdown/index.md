@@ -1,4 +1,4 @@
-<div class="hidden"><meta property="og:image" content="http://the-dining-philosophers.github.io/code-weekend/assets/img/logo.png"><link rel="shortcut icon" href="assets/images/favicon.png"><link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"><link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' type='text/css'><link rel="stylesheet" href="assets/css/typography.css"><link rel="stylesheet" href="assets/css/markdown.css"></div>
+<div class="hidden"><meta property="og:image" content="http://2015s.pennapps.com/assets/images/logo.png"><link rel="shortcut icon" href="http://2015s.pennapps.com/assets/images/logo.png"><link rel="stylesheet" href="assets/css/global.css"><link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"><link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' type='text/css'></div><div class="nav-items"><a href="index.html"><img src="assets/img/logo.svg"></a></div>
 
 PennApps Mentoring
 ============
@@ -20,10 +20,9 @@ Before PennApps you should sign up to be a [mentor](https://docs.google.com/form
 
 At PennApps there will be several events for our new hackers. On Friday, we'll be having a mentorship dinner where you can mix and mingle with the mentors to find out how they can be most useful to you throughout the hackathon. The hub of mentoring will be in the Accenture Engineering Cafe located in the Levine Building of the engineering quad. This is where you're most likely to find mentors as well. To reach out to mentors from where you're hacking or if they're not in the Cafe check out [my.pennapps.com](https://my.pennapps.com/login) for the mentor database. The mentor database has a list of all registered mentors and their technical skills.
 
-<div class="footer"><p>&copy; PennApps 2014. Page design by <a href="http://pvrnav.com">Pranav Vishnu Ramabhadran</a>. Workshop designed by <a href="http://github.com/bclay/">Brynn Claypoole</a>. Contact us at mentoring (at) pennapps.com</div>
+<div class="footer"><p>&copy; PennApps 2015. Page design by <a href="http://pvrnav.com">Pranav Vishnu Ramabhadran</a>. Workshop designed by <a href="http://github.com/bclay/">Brynn Claypoole</a>. Contact us at mentoring (at) pennapps.com</div>
 
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="assets/js/nav.js"></script>
 <script src="assets/js/FlowType.js"></script>
 <script type="text/javascript">
     $('body').flowtype({
@@ -32,10 +31,5 @@ At PennApps there will be several events for our new hackers. On Friday, we'll b
         minFont   : 16,
         maxFont   : 65,
         fontRatio : 40
-    });
-</script>
-<script>
-    $(window).load(function(){
-        $('.loading').fadeOut('200');
     });
 </script>

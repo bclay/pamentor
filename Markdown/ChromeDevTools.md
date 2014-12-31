@@ -1,6 +1,4 @@
-<div class="hidden"><meta property="og:image" content="http://the-dining-philosophers.github.io/code-weekend/assets/img/logo.png"><link rel="shortcut icon" href="assets/images/favicon.png"><link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"><link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' type='text/css'><link rel="stylesheet" href="assets/css/typography.css"><link rel="stylesheet" href="assets/css/markdown.css"></div>
-
-
+<div class="hidden"><meta property="og:image" content="http://2015s.pennapps.com/assets/images/logo.png"><link rel="shortcut icon" href="http://2015s.pennapps.com/assets/images/logo.png"><link rel="stylesheet" href="assets/css/global.css"><link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"><link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' type='text/css'></div><div class="nav-items"><a href="index.html"><img src="assets/img/logo.svg"></a><a href="#why-chrome-devtools" class="nav-item">Why Chrome</a><a href="#step-0-an-in-depth-guide-to-all-your-devtools-needs" class="nav-item">Step 0: Guide</a><a href="#step-1-opening-up-devtools" class="nav-item">Step 1: Opening</a><a href="#step-2-chrome-devtools-tabs-at-a-glance" class="nav-item">Step 2: The Tabs</a><a href="#step-3-the-elements-tab" class="nav-item">Step 3: Elements Tab</a><a href="#step-4-the-sources-tab-and-using-the-debugger" class="nav-item">Step 4: Sources and Debugger</a><a href="#step-5-the-javascript-console" class="nav-item">Step 5: The Console</a><a href="#step-6-conclusion-and-further-resources" class="nav-item">Step 6: Conclusion &amp; Resources</a></div>
  
 Chrome DevTools for Debugging <a id="setup-section"></a>
 ==================================
@@ -8,7 +6,7 @@ The first steps to making your website.
 --------------------------
 
 
-###Why Chrome DevTools? <a id="api-section"></a>
+### Why Chrome DevTools?
 
 
 Be it a hackathon or an internship, being good at debugging is an extremely useful skill to have. It’s very rare that a program you write runs perfectly the first time you write it, and therefore as coders we have to spend a lot of time debugging and trying to identify what parts of the code cause problems in our program. IDEs(Integrated Development Environments) like Eclipse provide users with built in debuggers to make this process easier, but what do you do when it comes to web programming? Most people use a text editor like Sublime when programming for the web, and these editors don’t come with powerful debugging capabilities. 

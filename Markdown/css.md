@@ -1,16 +1,11 @@
-<div class="hidden"><meta property="og:image" content="http://the-dining-philosophers.github.io/code-weekend/assets/img/logo.png"><link rel="shortcut icon" href="assets/images/favicon.png"><link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"><link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' type='text/css'><link rel="stylesheet" href="assets/css/typography.css"><link rel="stylesheet" href="assets/css/markdown.css"></div><div class="nav-items"><div class="nav-item" id="setup-menu">Intro</div><div class="nav-item" id="node-menu">CSS</div><div class="nav-item" id="apis-menu">Bootstrap</div><div class="nav-item" id="dbs-menu">Resources</div></div>
+<div class="hidden"><meta property="og:image" content="http://2015s.pennapps.com/assets/images/logo.png"><link rel="shortcut icon" href="http://2015s.pennapps.com/assets/images/logo.png"><link rel="stylesheet" href="assets/css/global.css"><link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"><link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' type='text/css'></div><div class="nav-items"><a href="index.html"><img src="assets/img/logo.svg"></a><a href="#web-design-101" class="nav-item">Intro</a><a href="#css" class="nav-item">CSS</a><a href="#bootstrap" class="nav-item">Bootstrap</a><a href="#resources" class="nav-item">Resources</a></div>
 
 Web Design 101
 ============
 Building your first (pretty) website
 --------------------------
 
-Intro to Websites <a id="setup-section"></a>
-==================================
-The first steps to making your website beautiful
-------------------------------------
-
-Welcome coders of all levels! Feel free to check out the [Code Weekend](the-dining-philosophers.github.io/code-weekend) website for a quick overview of HTML, CSS, and Javascript. In case you missed it, here's how the three come together to make websites work:
+Welcome coders of all levels! Feel free to check out the [Code Weekend](dinphil.github.io/code-weekend) website for a quick overview of HTML, CSS, and Javascript. In case you missed it, here's how the three come together to make websites work:
 
 ### What are HTML, CSS, and Javascript?
 
@@ -20,8 +15,8 @@ CSS dresses up this information. Most (but really all) webpages link to a CSS fi
 
 Javascript is the fun part. It does dynamic things with your webpage, updates content on the fly and can animate just about anything. We'll talk about this later.
 
-HTML <a id="node-section"></a>
-==================================
+HTML 
+=====
 
 HTML stands for HyperText Markup Lanuage. It is HyperText because it hyperlinks you to other text. It is a markup language because it is not written as plain text. It is marked up into the form of HTML elements called tags.
 
@@ -32,7 +27,7 @@ Every webpage is built in the HTML DOM (Document Object Model). This means that 
 ![The DOM](http://courses.cs.washington.edu/courses/cse190m/07sp/lectures/slides/images/dom_tree.gif)
 
 
-CSS <a id="node-section"></a>
+CSS
 ==================================
 Does your website have style?
 ------------------------------------
@@ -81,18 +76,18 @@ You can set elements to "float" to some part of the page. For example, if you'd 
 
 Yes, you can actually animate your CSS code. Blow is an animation that causes a circle to blink red:
 
-	@keyframes blink {
-  		50% {
+    @keyframes blink {
+    		50% {
     		background: radial-gradient(circle, red 15%, transparent 40%), #cc5;
-  		}
-	}
+    		}
+    }
 
-	/* in the actual CSS element */
-	animation: blink .5s infinite;
+    /* in the actual CSS element */
+    animation: blink .5s infinite;
 
 Keyframes are just different snapshots of your animation. In the blinking example, the original keyframe is a white circle, and the second keyframe is a red circle.
 
-Bootstrap <a id="api-section"></a>
+Bootstrap
 ==================================
 The easiest shortcut to good design
 ------------------------------------
@@ -105,7 +100,7 @@ Poke around on [Bootstrap](http://getbootstrap.com/). There are two main ways to
 
 You're welcome to download Bootstrap, but it's probably easier just to link to the website you want (or download just the files you want off the Internet).
 
-Resources <a id="api-section"></a>
+Resources
 ==================================
 Time to realize that thievery isn't always wrong
 ------------------------------------
@@ -122,10 +117,9 @@ There are tons of resources out there to help with CSS and design:
 
 This guide was provided by Brynn Claypoole.
 
-<div class="footer"><p>&copy; PennApps 2014. Page design by <a href="http://pvrnav.com">Pranav Vishnu Ramabhadran</a>. Workshop designed by <a href="http://github.com/bclay/">Brynn Claypoole</a>.</div>
+<div class="footer"><p>&copy; PennApps 2015. Page design by <a href="http://pvrnav.com">Pranav Vishnu Ramabhadran</a>. Workshop designed by <a href="http://github.com/bclay/">Brynn Claypoole</a>.</div>
 
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="assets/js/nav.js"></script>
 <script src="assets/js/FlowType.js"></script>
 <script type="text/javascript">
     $('body').flowtype({
@@ -134,10 +128,5 @@ This guide was provided by Brynn Claypoole.
         minFont   : 16,
         maxFont   : 65,
         fontRatio : 40
-    });
-</script>
-<script>
-    $(window).load(function(){
-        $('.loading').fadeOut('200');
     });
 </script>

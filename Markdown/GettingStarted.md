@@ -1,6 +1,6 @@
-<div class="hidden"><meta property="og:image" content="http://the-dining-philosophers.github.io/code-weekend/assets/img/logo.png"><link rel="shortcut icon" href="assets/images/favicon.png"><link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"><link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' type='text/css'><link rel="stylesheet" href="assets/css/typography.css"><link rel="stylesheet" href="assets/css/markdown.css"></div>
+<div class="hidden"><meta property="og:image" content="http://2015s.pennapps.com/assets/images/logo.png"><link rel="shortcut icon" href="http://2015s.pennapps.com/assets/images/logo.png"><link rel="stylesheet" href="assets/css/global.css"><link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"><link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' type='text/css'></div><div class="nav-items"><a href="index.html"><img src="assets/img/logo.svg"></a></div>
 
-What to Build as a Beginner?<a id="setup-section"></a>
+What to Build as a Beginner?
 ==================================
 
 
@@ -10,10 +10,9 @@ If you’ve had some basic experience and feel comfortable with your ability to 
 
 The interenet has a lot of helpful reasources to help you sort through troubleshooting your code and learn new code. Two extremely helpful reasources are: [Code Academy](http://www.codeacademy.com) and [Stack Overflow](http://stackoverflow.com). You should try searching something on each of these websites now to familiarize yourself with the setup.
 
-<div class="footer"><p>&copy; PennApps 2014. Page design by <a href="http://pvrnav.com">Pranav Vishnu Ramabhadran</a>. Resources compiled by PennApps Mentoring.</div>
+<div class="footer"><p>&copy; PennApps 2015. Page design by <a href="http://pvrnav.com">Pranav Vishnu Ramabhadran</a>. Resources compiled by PennApps Mentoring.</div>
 
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="assets/js/nav.js"></script>
 <script src="assets/js/FlowType.js"></script>
 <script type="text/javascript">
     $('body').flowtype({
@@ -22,10 +21,5 @@ The interenet has a lot of helpful reasources to help you sort through troublesh
         minFont   : 16,
         maxFont   : 65,
         fontRatio : 40
-    });
-</script>
-<script>
-    $(window).load(function(){
-        $('.loading').fadeOut('200');
     });
 </script>
