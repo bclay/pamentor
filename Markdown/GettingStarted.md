@@ -3,7 +3,6 @@
 What to Build as a Beginner?
 ==================================
 
-
 If you are new to programming, we strongly recommend that you start by building a personal website. It does not have to be fancy (just some information about you, links to social media, and a basic design will work), but it will give you experience designing a basic “app” and publishing it for the world to see! Check out [Pranav](http://pvrnav.com) and [Derek's](http://derekjobst.com/) for some website inspiration. 
 
 If you’ve had some basic experience and feel comfortable with your ability to build and deploy an app, we’d recommend you look at our “ideas” doc for several suggestions made by people from the Philadelphia community.

@@ -4,9 +4,6 @@ PennApps Mentoring
 ============
 We think hackathons should be about learning and meeting new people, so we're here to make it happen. Read all about our initiatives, and join us for a new kind of mentoring experience!
 
-<!--- -->
-
-
 ###Beginner Guides
 To help you learn to hack we have our archive of [tech talks](./TechTalks.html) and [content](./toc.html) developed by the team on lots of useful topics. 
 

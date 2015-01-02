@@ -6,7 +6,7 @@ What is Android?
 Android is the most widely used mobile operating system in the world. Unlike its main competitor, iOS, the Android system is open source and is distributed across many, many different hardware devices (often with modifications). This makes Android another very popular choice for building apps. Apps for Android are written in a modified form of Java.
 
 Resources 
-=========
+-----------------------
 
 [Build a simple app](http://developer.android.com/training/basics/firstapp/index.html)
 

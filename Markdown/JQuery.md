@@ -9,8 +9,8 @@ This guide will assume some knowledge of programming and HTML/CSS but extensive 
 
 1. Getting set up
 This part is easy. Just put 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-right before the </body> tag in your HTML. This loads the JQuery script  onto the page and lets you call its methods with $. Of course, can also provide it yourself rather than relying on Google, but this is the easiest way.
+`<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>`
+right before the `</body>` tag in your HTML. This loads the JQuery script  onto the page and lets you call its methods with $. Of course, can also provide it yourself rather than relying on Google, but this is the easiest way.
 
 Right under that snippet, put another script tag, like so: 
 
@@ -30,6 +30,7 @@ Check out the [HTML/CSS](./css.html) page to learn about the DOM.
 JQuery makes it really easy to add, remove, and change DOM nodes. For instance, if we wanted to create a new `<h2>` element that said “PennApps rocks,” we would write
 
     $(‘<h2>’).html(‘PennApps rocks’); 
+    
 Now, while this has created a new DOM node like we wanted, it isn’t actually inserted into the DOM anywhere. To do that, we would write:
 
     var header = $(‘<h2>’).html(‘PennApps rocks’); 
