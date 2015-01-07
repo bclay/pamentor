@@ -39,7 +39,7 @@ Next, notice the line `frame.setTitle(“Hi!”);`. This allows us to see two mo
 
 We won’t explain the entire rest of the program here, but use the tips here to dissect and absorb it!
 
-###Java Resources
+###Resources
 http://docs.oracle.com/javase/tutorial/
 http://www.oracle.com/technetwork/topics/newtojava/overview/index.html
 http://en.wikipedia.org/wiki/Javadoc

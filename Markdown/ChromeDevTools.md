@@ -1,4 +1,4 @@
-<div class="hidden"><meta property="og:image" content="http://2015s.pennapps.com/assets/images/logo.png"><link rel="shortcut icon" href="http://2015s.pennapps.com/assets/images/logo.png"><link rel="stylesheet" href="assets/css/global.css"><link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"><link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' type='text/css'></div><div class="nav-items"><a href="index.html"><img src="assets/img/logo.svg"></a><a href="#why-chrome-devtools" class="nav-item">Why Chrome</a><a href="#step-0-an-in-depth-guide-to-all-your-devtools-needs" class="nav-item">Step 0: Guide</a><a href="#step-1-opening-up-devtools" class="nav-item">Step 1: Opening</a><a href="#step-2-chrome-devtools-tabs-at-a-glance" class="nav-item">Step 2: The Tabs</a><a href="#step-3-the-elements-tab" class="nav-item">Step 3: Elements Tab</a><a href="#step-4-the-sources-tab-and-using-the-debugger" class="nav-item">Step 4: Sources and Debugger</a><a href="#step-5-the-javascript-console" class="nav-item">Step 5: The Console</a><a href="#step-6-conclusion-and-further-resources" class="nav-item">Step 6: Conclusion &amp; Resources</a></div>
+<div class="hidden"><meta property="og:image" content="http://2015s.pennapps.com/assets/images/logo.png"><link rel="shortcut icon" href="http://2015s.pennapps.com/assets/images/logo.png"><link rel="stylesheet" href="assets/css/global.css"><link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"><link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' type='text/css'></div><div class="nav-items"><a href="index.html"><img src="assets/img/logo.svg"></a><a href="#why-chrome-devtools" class="nav-item">Why Chrome</a><a href="#in-depth-guide-to-all-your-devtools-needs" class="nav-item">Guide</a><a href="#opening-up-devtools" class="nav-item">Opening</a><a href="#chrome-devtools-tabs" class="nav-item">The Tabs</a><a href="#elements-tab" class="nav-item">Elements Tab</a><a href="#sources-tab-and-the-debugger" class="nav-item">Sources and Debugger</a><a href="#javascript-console" class="nav-item">The Console</a><a href="#conclusion-and-further-resources" class="nav-item">Conclusion &amp; Resources</a></div>
  
 Chrome DevTools for Debugging <a id="setup-section"></a>
 ==================================
@@ -15,13 +15,13 @@ Especially at a hackathon like PennApps where time is very valuable, you wouldn�
 
 So now that we know why Chrome DevTools could be a valuable resource, let’s begin!
 
-###Step 0: An In-Depth Guide to All Your DevTools Needs
+###An In-Depth Guide to All Your DevTools Needs
 
 The guide you’re reading now will be covering some of the most basic and important features of DevTools. If you happen to have a couple of hours free, and would like to delve more into the capabilities of DevTools, I strongly recommend taking this free Code School course. It’s basically a series of short videos that explain different features of DevTools, all followed with a Challenge section that gets you to actually use that feature. It’s very informative and easy to follow, and by the end you will have a much better idea of how to use DevTools to your advantage.
 
 If you don’t think you have the time, don’t worry. This guide assumes this is your first time working with Chrome DevTools.
 
-###Step 1: Opening up DevTools
+###Opening up DevTools
 
 After opening up Chrome, there are two ways you could pull up DevTools.
 
@@ -43,7 +43,7 @@ You should get something like this on the bottom half of your screen:
 
 
 
-###Step 2: Chrome DevTools Tabs at a Glance
+###Chrome DevTools Tabs
 
 Now that you have DevTools open, let’s take a look at the tab names and what they are primarily used for.
 
@@ -73,7 +73,7 @@ This brings up a JavaScript console that you can interact with. It’s useful fo
 Since this is more of an introductory guide to the most essential features of DevTools, I’ll try to explain to you some of the tools I use the most and how it could help you out when you’re working on your app. I’ll mostly focus on Elements and Sources, and touch a bit on Profiles and Console. Again, if you wish to check out all these features, I highly recommend the Code School course I posted earlier.
 
 
-###Step 3: The Elements Tab
+###Elements Tab
 
 The Elements Tab is made up of two parts: the left side which shows the HTML elements in a nice tree format, and the right side which shows what styles and properties are applied to the currently selected HTML element. 
 
@@ -87,7 +87,7 @@ In addition to that, the right panel also displays information about the margins
 
 I believe that these are the most useful features of the Elements tab, but if you want more information or a more detailed explanation of the discussed features, you should check out this page on the Chrome Developers website.
 
-###Step 4: The Sources Tab and Using the Debugger
+###Sources Tab and the Debugger
 
 First, I just want to briefly explain why you might find the DevTools JavaScript Debugger useful. As your web application gets bigger and bigger, you will have functions that call other functions, that call other smaller functions. You might have used print statements or console.log statements in the past to figure out which point the program runs up to. In smaller applications, this might be a fine way of debugging, but I assure you learning to work with a debugger will save you a lot of precious time. After you become comfortable with it, you will figure out bugs that would take hours to figure out with print statements in minutes. 
 
@@ -102,7 +102,7 @@ With what you know so far, you can see which lines of code are being executed in
 This was more of an introduction to using a Debugger, because I wanted to direct you to the Chrome Developers page that has a great step by step guide on how to use the Debugger. I recommend reading through the “Debugging with Breakpoints” part. I don’t think you need to worry about the parts after that if this is your first time with debuggers or a browser debugger. The Code School course also does a great job in explaining how to use the Debugger in an interactive way. 
 
 
-###Step 5: The JavaScript Console
+###JavaScript Console
 
 The JavaScript console could be a useful tool in debugging, since if you have any console.log statements in your actual code, this is where you will see the output. I know I mentioned earlier that the debugger is much more powerful, however there are still times where going with some console.log statements could make sense. Let’s say there is a 3D animation in your web app, and you want to see how your object changes its position over time. You could set a breakpoint in your method that gets called every frame, and check the position using the debugger. However this could take a while and you might want to just see everything at once. A simple: `console.log(“Object position:” + object.position)` could be a much simpler way to see the change in position throughout the animation. The JavaScript Console would be where you would check the output of these calls. 
 
@@ -112,7 +112,7 @@ Let’s say you want to test out whether a function you wrote, called foo, does 
 
 If you want to learn more about the JavaScript console, take a look at this Chrome Developers page. You can skip the “Using the Console API” part, but the “Basic operation” and “Using the Command Line API” parts contain some information that might help you out. 
 
-###Step 6: Conclusion and Further Resources
+###Conclusion and Further Resources
 
 And with that, we’re done! I hope you found this guide as a helpful introduction to some of the most important features of Chrome DevTools. It might be a hard to get into it at first, but once you get in a habit of using Developer Tools (in any browser), it will save you a lot of time when debugging or when you’re just completely lost.
 

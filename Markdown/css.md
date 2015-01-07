@@ -1,6 +1,6 @@
 <div class="hidden"><meta property="og:image" content="http://2015s.pennapps.com/assets/images/logo.png"><link rel="shortcut icon" href="http://2015s.pennapps.com/assets/images/logo.png"><link rel="stylesheet" href="assets/css/global.css"><link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"><link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' type='text/css'></div><div class="nav-items"><a href="index.html"><img src="assets/img/logo.svg"></a><a href="#web-design-101" class="nav-item">Intro</a><a href="#css" class="nav-item">CSS</a><a href="#bootstrap" class="nav-item">Bootstrap</a><a href="#resources" class="nav-item">Resources</a></div>
 
-Web Design 101
+Web Design 101 <a id="setup-section"></a>
 ============
 Building your first (pretty) website
 --------------------------
@@ -29,18 +29,18 @@ Every webpage is built in the HTML DOM (Document Object Model). This means that 
 
 CSS
 ------------------------------------
-###Does your website have style?
+####Does your website have style?
 
 
 CSS is a really funny language with a lot of oddities. I'll go through a few of them here:
 
-### Cascading
+#### Cascading
 
 CSS stands for "Cascading Style Sheets". Go back to the idea of a DOM, and envision a website as a tree. "Cascading" just means that the same element can have the same property set to different values in different places (perhaps in different CSS files), but the most specific setting is the one followed on the page.
 
 For example, your CSS may set all body text in the body tag to blue, but text surrounded by an h1 tag is set to black. The text will end up being black, since the h1 tag is more specific than the body tag.
 
-### Margins and Padding
+#### Margins and Padding
 
 Roughly speaking, setting margins and padding to particular values will give cushions of space around your content. In general it won't matter which you set, but technically the margin is outside the "border" and the padding is within it. You can generally specifiy which margin/padding to set, or uniformly set them in every direction.
 
@@ -48,7 +48,7 @@ Roughly speaking, setting margins and padding to particular values will give cus
 
 You should almost always put some kind of margin/padding around text. It's really difficult to read when words stretch all the way out to the edge of a box or page, so your eyes will appreciate the white space.
 
-### Sizes
+#### Sizes
 
 Sizes of elements can be set and adjusted in several ways.
 
@@ -58,23 +58,23 @@ Sizes of elements can be set and adjusted in several ways.
 
 - _em_ can be used for fonts to indicate sizes relative to the original settings. For example, you can set a font size to _2em_, which will make it twice as big as it originally was.
 
-### Colors
+#### Colors
 
 Colors can generally be set by just indicting a color name. To get a really specific color, you can use a color selector to find the hexadecimal representation of a color. Hexadecimal values are between 0 and 9 or a and f. The numbers are equivalent to, well, themselves, and the letters are two-digit numbers (a=10, b=11, c=12, et cetera). For example, _#1bb99a_ is the shade of green we use on the PennApps website. People generally use "color pickers" to find the hexadecimal version fo the colors they want.
 
 If you want to change a box color, alter the _background_ property. Text color can be changed with the _color_ property.
 
-### Aligning
+#### Aligning
 
 Just like a Word document, you can align text and objects to the left, right, or center of a page. 
 
-### Floating
+#### Floating
 
 You can set elements to "float" to some part of the page. For example, if you'd like to see a picture on the left of a text box, you can set _float:left;_. Be careful—there are a ton of nuances here.
 
-### Animating
+#### Animating
 
-Yes, you can actually animate your CSS code. Blow is an animation that causes a circle to blink red:
+Yes, you can actually animate your CSS code. Below is an animation that causes a circle to blink red:
 
     @keyframes blink {
     		50% {
@@ -94,9 +94,9 @@ Keyframes are just different snapshots of your animation. In the blinking exampl
 
 Poke around on [Bootstrap](http://getbootstrap.com/). There are two main ways to use it in a website.
 
-- _Borrow Elements_: You can use page elements straight from Bootstrap, such as buttons, navigation bars, search bars, et cetera.
+- _Borrow Elements_: You can use [page elements](http://getbootstrap.com/components/) straight from Bootstrap, such as buttons, navigation bars, search bars, et cetera. 
 
-- _Adapt a Template_: You can take entire templates built by Bootstrap and change them for your own purposes.
+- _Adapt a Template_: You can take entire templates built by Bootstrap and change them for your own purposes. This can be accomplished by opening the template, right-clicking, and saving the page as an html file.
 
 You're welcome to download Bootstrap, but it's probably easier just to link to the website you want (or download just the files you want off the Internet).
 
@@ -110,11 +110,10 @@ There are tons of resources out there to help with CSS and design:
 
 - [Dash](https://dash.generalassemb.ly) has really great tutorials for learning CSS.
 
-- [Treehouse](https://teamtreehouse.com/signup_code/hackru)
 
 
 
-This guide was provided by Brynn Claypoole.
+This guide was provided by [Brynn Claypoole](http://github.com/bclay/).
 
 <div class="footer"><p>&copy; PennApps 2015. Page design by <a href="http://pvrnav.com">Pranav Vishnu Ramabhadran</a>. Workshop designed by <a href="http://github.com/bclay/">Brynn Claypoole</a>.</div>
 

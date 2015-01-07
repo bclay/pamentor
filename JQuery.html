@@ -65,17 +65,15 @@
 .codehilite pre .vi { color: #008080 } /* Name.Variable.Instance */
 .codehilite pre .il { color: #945277 } /* Literal.Number.Integer.Long */</style><title>JQuery</title></head><body><article class="markdown-body"><div class="hidden"><meta property="og:image" content="http://2015s.pennapps.com/assets/images/logo.png"><link rel="shortcut icon" href="http://2015s.pennapps.com/assets/images/logo.png"><link rel="stylesheet" href="assets/css/global.css"><link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"><link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' type='text/css'></div>
 
-<div class="nav-items"><a href="index.html"><img src="assets/img/logo.svg"></a></div>
+<div class="nav-items"><a href="index.html"><img src="assets/img/logo.svg"></a><a href="#getting-set-up" class="nav-item">Set Up</a><a href="#dom-manipulation" class="nav-item">DOM Manipulation</a><a href="#finding-nodes-in-the-dom" class="nav-item">Nodes</a><a href="#method-chaining" class="nav-item">Method Chaining</a><a href="#event-binding" class="nav-item">Event Binding</a><a href="#animations" class="nav-item">Animations</a><a href="#jquery-plugins" class="nav-item">Plugins</a></div>
 
-<h1 id="jquery"><a name="user-content-jquery" href="#jquery" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>JQuery</h1>
+<h1 id="jquery"><a name="user-content-jquery" href="#jquery" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>JQuery <a id="setup-section"></a></h1>
 <p>JQuery is a helpful Javascript library that makes possible to bring webpages to life without going insane. It provides helpers for DOM manipulation, event binding, AJAX requests, and even animations. JQuery is compatible with nearly all browsers (including oldies like IE) and has a wide range of plugins available that extend its functionality even further.</p>
 <p>This guide will assume some knowledge of programming and HTML/CSS but extensive practice of Javascript will not be required to understand it. However, the better you know the language the more dangerous you’ll be when you sit down to program. For an excellent primer in the Javascript language (as well as a look at how miserable events are without JQuery!), <a href="http://eloquentjavascript.net/">go here</a>.</p>
-<ol>
-<li>Getting set up<br />
-This part is easy. Just put <br />
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script><br />
-right before the </body> tag in your HTML. This loads the JQuery script  onto the page and lets you call its methods with $. Of course, can also provide it yourself rather than relying on Google, but this is the easiest way.</li>
-</ol>
+<h3 id="getting-set-up"><a name="user-content-getting-set-up" href="#getting-set-up" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Getting set up</h3>
+<p>This part is easy. Just put <br />
+<code>&lt;script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"&gt;&lt;/script&gt;</code><br />
+right before the <code>&lt;/body&gt;</code> tag in your HTML. This loads the JQuery script onto the page and lets you call its methods with <code>$</code>. Of course, can also provide it yourself rather than relying on Google, but this is the easiest way.</p>
 <p>Right under that snippet, put another script tag, like so: </p>
 <div class="codehilite"><pre><span class="nt">&lt;script&gt;</span>
     $(‘document’).ready(function(){
@@ -86,9 +84,7 @@ right before the </body> tag in your HTML. This loads the JQuery script  onto th
 
 
 <p>This tells JQuery to wait until the document is loaded, and then run whatever code you put in the body of the function.</p>
-<ol>
-<li>DOM Manipulation</li>
-</ol>
+<h3 id="dom-manipulation"><a name="user-content-dom-manipulation" href="#dom-manipulation" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>DOM Manipulation</h3>
 <p>Check out the <a href="./css.html">HTML/CSS</a> page to learn about the DOM.</p>
 <p>JQuery makes it really easy to add, remove, and change DOM nodes. For instance, if we wanted to create a new <code>&lt;h2&gt;</code> element that said “PennApps rocks,” we would write</p>
 <div class="codehilite"><pre><span class="err">$</span><span class="p">(</span><span class="err">‘</span><span class="o">&lt;</span><span class="vg">h2</span><span class="o">&gt;</span><span class="err">’</span><span class="p">)</span><span class="o">.</span><span class="vg">html</span><span class="p">(</span><span class="err">‘</span><span class="vg">PennApps</span><span class="w"> </span><span class="vg">rocks</span><span class="err">’</span><span class="p">);</span>
@@ -107,7 +103,7 @@ right before the </body> tag in your HTML. This loads the JQuery script  onto th
 </pre></div>
 
 
-<p>Finding nodes in the DOM</p>
+<h3 id="finding-nodes-in-the-dom"><a name="user-content-finding-nodes-in-the-dom" href="#finding-nodes-in-the-dom" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Finding nodes in the DOM</h3>
 <p>One of the most common tasks you’ll use JQuery for is finding all nodes in the DOM that match certain criteria. For instance, you might want to find all paragraphs in order to change their style or make some other changes.</p>
 <p>For this, it helps to know some CSS selectors, because JQuery can find nodes just the same way a style sheet does. In CSS you could color all paragraphs red with:</p>
 <div class="codehilite"><pre><span class="vg">p</span><span class="w"> </span><span class="o">/*</span><span class="w"> </span><span class="err">←</span><span class="w"> </span><span class="vg">this</span><span class="w"> </span><span class="vg">is</span><span class="w"> </span><span class="vg">the</span><span class="w"> </span><span class="vg">selector!</span><span class="w"> </span><span class="o">*/</span><span class="w"> </span><span class="p">{</span>
@@ -121,15 +117,16 @@ right before the </body> tag in your HTML. This loads the JQuery script  onto th
 </pre></div>
 
 
-<p>You use the same ‘p’ selector here as in the CSS, and in both it selected all <code>&lt;p&gt;</code> tags in the DOM. Two other common selectors are the class selector ‘.class-name’ and the id selector ‘#id-name.’ For a list of more advanced selectors in JQuery please see <a href="http://api.jquery.com/?s=selectors">http://api.jquery.com/?s=selectors</a>.</p>
-<p>Method Chaining<br />
-It would be a real pain to have to write out the same selector over and over just to change multiple properties on an element. Luckily, JQuery has a neat trick; every one of its methods returns the original JQuery object that you create when you write the selector! This way, you can just chain the methods one after another, like so:</p>
+<p>You use the same ‘p’ selector here as in the CSS, and in both it selected all <code>&lt;p&gt;</code> tags in the DOM. Two other common selectors are the class selector <code>.class-name</code> and the id selector <code>#id-name</code>. For a list of more advanced selectors in JQuery please see <a href="http://api.jquery.com/?s=selectors">http://api.jquery.com/?s=selectors</a>.</p>
+<h3 id="method-chaining"><a name="user-content-method-chaining" href="#method-chaining" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Method Chaining</h3>
+<p>It would be a real pain to have to write out the same selector over and over just to change multiple properties on an element. Luckily, JQuery has a neat trick; every one of its methods returns the original JQuery object that you create when you write the selector! This way, you can just chain the methods one after another, like so:</p>
 <div class="codehilite"><pre><span class="vg">var</span><span class="w"> </span><span class="vg">myNode</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="err">$</span><span class="p">(</span><span class="err">‘#</span><span class="vg">myID</span><span class="err">’</span><span class="p">)</span><span class="o">.</span><span class="vg">css</span><span class="p">(</span><span class="err">‘</span><span class="vg">color</span><span class="err">’</span><span class="p">,</span><span class="w"> </span><span class="err">‘</span><span class="vg">red</span><span class="err">’</span><span class="p">)</span><span class="o">.</span><span class="vg">attr</span><span class="p">(</span><span class="err">‘</span><span class="vg">width</span><span class="err">’</span><span class="p">,</span><span class="w"> </span><span class="err">‘</span><span class="il">500</span><span class="vg">px</span><span class="err">’</span><span class="p">)</span><span class="o">.</span><span class="vg">css</span><span class="p">(</span><span class="err">‘</span><span class="vg">width</span><span class="err">’</span><span class="vg">border</span><span class="err">’</span><span class="p">,</span><span class="w"> </span><span class="err">‘</span><span class="il">1</span><span class="vg">px</span><span class="w"> </span><span class="vg">solid</span><span class="w"> </span><span class="vg">blue</span><span class="err">’</span><span class="p">);</span>
 </pre></div>
 
 
-<p>Event Binding (clicks, keypresses, and more)</p>
-<p>JQuery makes it easy to make something happen when a user clicks the a button or presses a key. Once you’ve selected the node you want to bind the event to (either via selectors as shown above, or by creating the node in the Javascript and storing it as a variable), you can use the .click(), .keypress(), and a host of other event binding methods to do some seriously cool stuff. Google and Stack Overflow will be your best bet for finding out how to do something specific (like binding only to the ‘up’ arrow for example).</p>
+<h3 id="event-binding"><a name="user-content-event-binding" href="#event-binding" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Event Binding</h3>
+<h4 id="clicks-keypresses-and-more"><a name="user-content-clicks-keypresses-and-more" href="#clicks-keypresses-and-more" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Clicks, Keypresses, and more</h4>
+<p>JQuery makes it easy to make something happen when a user clicks the a button or presses a key. Once you’ve selected the node you want to bind the event to (either via selectors as shown above, or by creating the node in the Javascript and storing it as a variable), you can use the <code>.click()</code>, <code>.keypress()</code>, and a host of other event binding methods to do some seriously cool stuff. Google and Stack Overflow will be your best bet for finding out how to do something specific (like binding only to the ‘up’ arrow for example).</p>
 <p>JQuery also supports touch events, although unfortunately not with a nice helper method like ‘click().’ You have to bind to touch events manually like so: </p>
 <div class="codehilite"><pre><span class="err">$</span><span class="p">(</span><span class="err">‘#</span><span class="vg">myButton</span><span class="err">’</span><span class="p">)</span><span class="o">.</span><span class="vg">on</span><span class="p">(</span><span class="err">‘</span><span class="vg">touchstart</span><span class="err">’</span><span class="p">,</span><span class="w"> </span><span class="vg">function</span><span class="p">(){</span>
 <span class="w">    </span><span class="vg">alert</span><span class="p">(</span><span class="err">‘</span><span class="vg">You</span><span class="w"> </span><span class="vg">touched</span><span class="w"> </span><span class="vg">the</span><span class="w"> </span><span class="vg">button!</span><span class="w"> </span><span class="vg">Hooray!</span><span class="err">’</span><span class="p">);</span>
@@ -137,8 +134,8 @@ It would be a real pain to have to write out the same selector over and over jus
 </pre></div>
 
 
-<p>This will open a popup window when a user touches the button with id=”myButton” (but not clicks with a mouse).</p>
-<p>You can also use .on() to bind to custom events that you can name yourself. This can be really useful in a lot of situations; for instance, you might have a ‘save’ event that gets triggered every time the user clicks a save button. Here is an example of such a setup:</p>
+<p>This will open a popup window when a user touches the button with <code>id=”myButton”</code> (but not clicks with a mouse).</p>
+<p>You can also use <code>.on()</code> to bind to custom events that you can name yourself. This can be really useful in a lot of situations; for instance, you might have a ‘save’ event that gets triggered every time the user clicks a save button. Here is an example of such a setup:</p>
 <div class="codehilite"><pre><span class="err">$</span><span class="p">(</span><span class="err">‘#</span><span class="vg">savebutton</span><span class="err">’</span><span class="p">)</span><span class="o">.</span><span class="vg">on</span><span class="p">(</span><span class="err">‘</span><span class="vg">save</span><span class="err">’</span><span class="p">,</span><span class="w"> </span><span class="vg">function</span><span class="p">(){</span>
 <span class="w">    </span><span class="vg">alert</span><span class="p">(</span><span class="err">‘</span><span class="vg">Saving</span><span class="err">’</span><span class="p">);</span>
 <span class="p">});</span>
@@ -147,9 +144,9 @@ It would be a real pain to have to write out the same selector over and over jus
 
 
 <p>This can be really useful for situations in which you need a few events, or you need a lightweight ‘event bus’ that you can hook into different parts of your application. Such a use case is actually a little beyond JQuery, but if you’re interested, check out some frameworks like Backbone that have a more robust event system keyed into model data.</p>
-<p>Animations</p>
-<p>Rather from simply inserting elements into the DOM, JQuery provides a few functions to make their entrance and exit a little more polished. The simplest of these are fadeIn() and fadeOut(), which are pretty self explanatory; the element is phased from invisible to visible, or vice-versa. But you can also program custom animations based on CSS properties via the animate() function, or chain multiple animate() calls. Now, with only JQuery loaded you can only animate numerical properties; but if you want to animate colors or other properties, you should check out some&hellip;</p>
-<p>JQuery Plugins</p>
+<h3 id="animations"><a name="user-content-animations" href="#animations" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Animations</h3>
+<p>Rather from simply inserting elements into the DOM, JQuery provides a few functions to make their entrance and exit a little more polished. The simplest of these are <code>fadeIn()</code> and <code>fadeOut()</code>, which are pretty self explanatory; the element is phased from invisible to visible, or vice-versa. But you can also program custom animations based on CSS properties via the <code>animate()</code> function, or chain multiple <code>animate()</code> calls. Now, with only JQuery loaded you can only animate numerical properties; but if you want to animate colors or other properties, you should check out some&hellip;</p>
+<h3 id="jquery-plugins"><a name="user-content-jquery-plugins" href="#jquery-plugins" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>JQuery Plugins</h3>
 <p>JQuery is open source and fully extensible, and it has a lot of really great plugins to extend its core functionality. Some are pretty much libraries in their own right, like JQuery UI, a collection of extremely useful interactive components; some are much smaller and a lot less documented (such as verdict.js). Plugins can be loaded with a <code>&lt;script&gt;</code> tag the same way as JQuery itself, and there is virtually guaranteed to be a plugin for anything you can think of. </p>
 <div class="footer"><p>&copy; PennApps 2015. Page design by <a href="http://pvrnav.com">Pranav Vishnu Ramabhadran</a>. Resources compiled by PennApps Mentoring.</div>
 

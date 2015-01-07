@@ -1,6 +1,6 @@
 <div class="hidden"><meta property="og:image" content="http://2015s.pennapps.com/assets/images/logo.png"><link rel="shortcut icon" href="http://2015s.pennapps.com/assets/images/logo.png"><link rel="stylesheet" href="assets/css/global.css"><link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"><link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' type='text/css'></div><div class="nav-items"><a href="index.html"><img src="assets/img/logo.svg"></a></div>
 
-Text Editors
+Text Editors <a id="setup-section"></a>
 ============
 Getting your code on paper
 --------------------------
