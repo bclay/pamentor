@@ -39,7 +39,7 @@ Feel free to try some of these commands, and look up others to see how they work
 ###Set Up Git
 Now that we have a basic understanding of Terminal and Unix commands we can set up git.Go [here](https://help.github.com/articles/set-up-git) to set up Git. You have already completed step 1. We highly recommend setting up an SSH keypair with your computer to allow more ease of use with Github. You can do that [here](https://help.github.com/articles/generating-ssh-keys). A few things to know about using Terminal: if you enter something and there is no message afterwards that usually means it has worked, and when typing in a password it will not appear that you are typing anything, but this is also working.
         
-###Respositories
+###Repositories
 
 As said before, a repository is where your code is stored on Github. You can make a repsoitory following [instructions](https://help.github.com/articles/create-a-repo). You can also see instructions on how to commit a change from Github itself.
 
