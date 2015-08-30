@@ -1,16 +1,16 @@
 /* Typography */
 
-@font-face {
+/*@font-face {
   font-family: Helvetica;
   src: url("HelveticaNeueLTStd-Th.otf") format("opentype");
-}
+}*/
 
 
-body {
+/*body {
   font: 14px "Open Sans", Helvetica Neue, sans-serif;
   color: #333333; }
-
-h1 {
+*/
+/*h1 {
   font-weight: 400;
   font-size: 2.5em;
   border: none;
@@ -39,7 +39,7 @@ p, ol, ul {
   font-size: 1em;
   line-height: 1.4em;
   color: #444444;
-  font-weight: 300; }
+  font-weight: 300; }*/
 
 
 
@@ -84,7 +84,7 @@ body {
     padding: 10px 10px;
     font-weight: lighter;
   }
-  .nav-item:hover{
+  /*.nav-item:hover{
     background-color: #00ADEF;
     color: white;
     cursor: pointer;
@@ -94,11 +94,11 @@ body {
     -webkit-transition: color 0.3s ease-in-out;
     -moz-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
-  }
+  }*/
   
 /* Content styles */
 
-   h1{
+   /*h1{
     color: #FCD401;
     text-transform: uppercase;
     text-align: center;
@@ -149,7 +149,7 @@ body {
    img{
     margin: auto;
     display: inherit;
-   }
+   }*/
 
 /* Code blocks */
 .codehilite pre{
@@ -227,4 +227,199 @@ img.full-img{
   blockquote{
     margin: 15px;
   }
+}
+
+
+
+/* -------------------------------------------- */
+
+@import url("http://hello.myfonts.net/count/2ddd1b.css");
+
+/**
+ * @license
+ * MyFonts Webfont Build ID 3005723, 2015-04-08T15:48:54-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: HalisR-Black by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-rounded/black/
+ *
+ * Webfont: HalisR-Light by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-rounded/light/
+ *
+ * Webfont: HalisR-Regular by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-rounded/regular/
+ *
+ *
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3005723
+ * Licensed pageviews: 500,000
+ * Webfonts copyright: Copyright (c) 2013 by Ahmet Altun. All rights reserved.
+ *
+ * © 2015 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+
+
+@font-face {
+  font-family: 'HalisR-Black';
+  src: url('webfonts/2DDD1B_0_0.eot');
+  src: url('webfonts/2DDD1B_0_0.eot?#iefix') format('embedded-opentype'),
+  url('webfonts/2DDD1B_0_0.woff2') format('woff2'),url('webfonts/2DDD1B_0_0.woff') format('woff'),
+  url('webfonts/2DDD1B_0_0.ttf') format('truetype');
+  }
+
+
+@font-face {
+  font-family: 'HalisR-Light';
+  src: url('webfonts/2DDD1B_1_0.eot');
+  src: url('webfonts/2DDD1B_1_0.eot?#iefix') format('embedded-opentype'),
+  url('webfonts/2DDD1B_1_0.woff2') format('woff2'),url('webfonts/2DDD1B_1_0.woff') format('woff'),
+  url('webfonts/2DDD1B_1_0.ttf') format('truetype');
+  }
+
+
+@font-face {
+  font-family: 'HalisR-Regular';
+  src: url('webfonts/2DDD1B_2_0.eot');
+  src: url('webfonts/2DDD1B_2_0.eot?#iefix') format('embedded-opentype'),
+  url('webfonts/2DDD1B_2_0.woff2') format('woff2'),url('webfonts/2DDD1B_2_0.woff') format('woff'),
+  url('webfonts/2DDD1B_2_0.ttf') format('truetype');
+}
+
+/*
+@light-grey: #EFEFEF;
+@medium-grey: #5F5F5F;
+@dark-grey: #444444;
+
+@dark-blue: #062946;
+
+@bright-red: #E64659;
+
+@medium-gold: #C7A857;
+*/
+
+body{
+  background-color: #EFEFEF;
+  color: #5F5F5F;
+  margin: 0px;
+}
+
+h1 {
+  color: #062946;
+  font-family: "HalisR-Regular";
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #E64659;
+  font-family: "HalisR-Regular";
+  font-size: 2em;
+  margin: 0px;
+  padding: 20px 0px;
+}
+
+h3 {
+  color: #E64659;
+  font-family: "HalisR-Regular";
+  margin-bottom: 0px;
+}
+
+p{
+  color: #5F5F5F;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 0.75em;
+  line-height: 1.75em;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+p a{
+  color: #062946;
+  text-decoration: underline;
+}
+
+.markdown-body {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 120px;
+}
+
+
+.nav-items {
+  left: 0;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.nav-items .nav-item {
+  color: #062946;
+  font-family: "HalisR-Regular";
+  font-size: 0.75em;
+  line-height: 1.5em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+
+@media (min-width: 768px) {
+  .markdown-body {
+    width: 750px;
+  }
+  .nav-items {
+    padding-left: calc((100% - 750px) / 2);
+    padding-right: calc((100% - 750px) / 2);
+    padding-left: -webkit-calc((100% - 750px) / 2);
+    padding-right: -webkit-calc((100% - 750px) / 2);
+    padding-left: -moz-calc((100% - 750px) / 2);
+    padding-right: -moz-calc((100% - 750px) / 2);
+  }
+}
+
+@media (min-width: 992px) {
+  .markdown-body {
+    width: 970px;
+  } 
+  .nav-items {
+    padding-left: calc((100% - 970px) / 2);
+    padding-right: calc((100% - 970px) / 2);
+    padding-left: -webkit-calc((100% - 970px) / 2);
+    padding-right: -webkit-calc((100% - 970px) / 2);
+    padding-left: -moz-calc((100% - 970px) / 2);
+    padding-right: -moz-calc((100% - 970px) / 2);
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .markdown-body {
+    width: 1170px;
+  }
+  .nav-items {
+    padding-left: calc((100% - 1170px) / 2);
+    padding-right: calc((100% - 1170px) / 2);
+    padding-left: -webkit-calc((100% - 1170px) / 2);
+    padding-right: -webkit-calc((100% - 1170px) / 2);
+    padding-left: -moz-calc((100% - 1170px) / 2);
+    padding-right: -moz-calc((100% - 1170px) / 2);
+  }
+}
+
+.footer {
+  display: none;
 }
