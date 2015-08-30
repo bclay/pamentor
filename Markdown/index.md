@@ -13,11 +13,9 @@ PennApps has teamed up with The Dining Philosophers to teach new hackers the bas
 
 ###At PennApps
 
-Before PennApps, you should sign up to be a [mentor](https://docs.google.com/forms/d/1UrD85sE_KSKmRjiAHjWeyPaAEVDaaj24LCZNCb06A50/edit?usp=sharing). At PennApps check-in, you can sign-up to be mentored.
+Before PennApps, you should sign up to be a [mentor](https://docs.google.com/forms/d/1jTVRzgrWkAb4unBnGMJpPiAA-dQxm3yb3-FNhWPg8tw/viewform?usp=send_form). At PennApps, you can request a mentor any time you want through [my.pennapps.com/mentor](https://my.pennapps.com/mentor).
 
-At PennApps there will be several events for our new hackers. Friday night, we'll be having some intro to hacking talks on topics like HTML/CSS, [iOS](https://www.youtube.com/watch?v=nNa1GEXQZJg), [Arduino](https://www.youtube.com/watch?v=l1M1zBkxVX0), and web technologies. There will also be a team formation event on Friday. The hub of mentoring will be in the Accenture Engineering Cafe located in the Levine Building of the engineering quad. This is where you'll be able to find mentors for most of the weekend! To reach out to mentors from where you're hacking or if they're not in the Cafe check out [my.pennapps.com](https://my.pennapps.com/login) for a database of mentors. The mentor database has a list of all registered mentors, their technical skills, and a way to contact them.
-
-<div class="footer"><p>&copy; PennApps 2015. Page design by <a href="http://pvrnav.com">Pranav Vishnu Ramabhadran</a>. Resources compiled by PennApps Mentoring. Contact us at mentoring (at) pennapps.com</div>
+At PennApps there will be several events for our new hackers. Friday night, we'll be having some intro to hacking talks on topics like HTML/CSS, [iOS](https://www.youtube.com/watch?v=nNa1GEXQZJg), [Arduino](https://www.youtube.com/watch?v=l1M1zBkxVX0), and web technologies. There will also be a team formation event on Friday. You'll be able to find mentors in the Mentor Hub for most of the weekend!
 
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="assets/js/FlowType.js"></script>
