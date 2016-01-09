@@ -1,0 +1,6 @@
+
+If you're new to programming, we strongly recommend that you start by building a personal website. It doesn't have to be fancy (just some information about you, links to social media, and a basic design will work), but it will give you experience designing a basic “app” and publishing it for the world to see! Check out [Pranav](http://pvrnav.com) and [Derek's](http://derekjobst.com/) for some design inspiration. We reccommend you read through the HTML/CSS and Git guides for this project. Before anything else, though, read about text editors.
+
+If you’ve had some basic experience and feel comfortable with your ability to build and deploy an app look at some of the more advanced guides.
+
+The internet has a lot of helpful reasources to help you sort through troubleshooting your code and learn new code. Three extremely helpful reasources are: [Code Academy](http://www.codeacademy.com), [Bento box](https://teamtreehouse.com/signup_code/hackru), and [Stack Overflow](http://stackoverflow.com). Check out these websites now to familiarize yourself with their setup.

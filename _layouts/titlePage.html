@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <div class="splash">
+      <div class="center-block">
+        <h1>{% if page.splashTitle %}{{ page.splashTitle }}{% else %}{{ site.title }}{% endif %}</h1>
+      </div>
+    </div>
+    {% include navbar.html %}
+    <div class="container">
+      {{ content }}
+    </div>
+
+    {% include footer.html %}
+
+    <script type="text/javascript">
+      nav.registerNav($('#navbar'), function () {
+        return $(window).scrollTop() + $('#navbar').height() > $(window).height();
+      });
+      nav.initializeNav($('#navbar'), -70);
+    </script>
+  </body>
+
+</html>
