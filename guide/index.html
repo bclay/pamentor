@@ -36,15 +36,57 @@ navitems:
     name: jQuery
 ---
 
-{% markdown guide/intro.md %}
+{% capture intro %}
+  {% include guide/intro.md %}
+{% endcapture %}
+{{ intro | markdownify }}
 
-<section id="text-editors-section">{% markdown guide/TextEditors.md %}</section>
-<section id="htmlcss-section">{% markdown guide/HtmlCss.md %}</section>
-<section id="git-section">{% markdown guide/Git.md %}</section>
-<section id="java-section">{% markdown guide/Java.md %}</section>
-<section id="python-section">{% markdown guide/Python.md %}</section>
-<section id="android-section">{% markdown guide/Android.md %}</section>
-<section id="ios-section">{% markdown guide/iOS.md %}</section>
-<section id="chrome-dev-tools-section">{% markdown guide/Chrome.md %}</section>
-<section id="nodejs-section">{% markdown guide/Node.md %}</section>
-<section id="jquery-section">{% markdown guide/jQuery.md %}</section>
+{% capture TextEditors %}
+  {% include guide/TextEditors.md %}
+{% endcapture %}
+<section id="text-editors-section">{{ TextEditors | markdownify }}</section>
+
+{% capture HtmlCss %}
+  {% include guide/HtmlCss.md %}
+{% endcapture %}
+<section id="htmlcss-section">{{ HtmlCss | markdownify }}</section>
+
+{% capture Git %}
+  {% include guide/Git.md %}
+{% endcapture %}
+<section id="git-section">{{ Git | markdownify }}</section>
+
+{% capture Java %}
+  {% include guide/Java.md %}
+{% endcapture %}
+<section id="java-section">{{ Java | markdownify }}</section>
+
+{% capture Python %}
+  {% include guide/Python.md %}
+{% endcapture %}
+<section id="python-section">{{ Python | markdownify }}</section>
+
+{% capture Android %}
+  {% include guide/Android.md %}
+{% endcapture %}
+<section id="android-section">{{ Android | markdownify }}</section>
+
+{% capture iOS %}
+  {% include guide/iOS.md %}
+{% endcapture %}
+<section id="ios-section">{{ iOS | markdownify }}</section>
+
+{% capture Chrome %}
+  {% include guide/Chrome.md %}
+{% endcapture %}
+<section id="chrome-dev-tools-section">{{ Chrome | markdownify }}</section>
+
+{% capture Node %}
+  {% include guide/Node.md %}
+{% endcapture %}
+<section id="nodejs-section">{{ Node | markdownify }}</section>
+
+{% capture jQuery %}
+  {% include guide/jQuery.md %}
+{% endcapture %}
+<section id="jquery-section">{{ jQuery | markdownify }}</section>
