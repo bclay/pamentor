@@ -1,0 +1,17 @@
+<nav id="navbar" class="pennapps-nav {{ page.navClass }}">
+  <div class="container">
+    <div class="nav-header">
+      <a href="/">
+        <h1 class="nav-brand">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+      </a>
+    </div>
+    <div class="nav-collapse">
+      <ul class="nav-links">
+        <li><a id="nav-slider" class="nav-slider"></a></li>
+        {% for navitem in page.navitems %}
+          <li><a href="#{{ navitem.id }}"><div class="bubble"></div>{{ navitem.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>

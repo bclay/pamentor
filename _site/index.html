@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PennApps Mentoring</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="">
+    <link rel="canonical" href="http://yourdomain.com/">
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <!-- PennApps Unified -->
+    <link rel="stylesheet" href="http://austineng.github.io/pennapps-unified-styles/css/pennapps-styles.min.css" >
+    <script src="http://austineng.github.io/pennapps-unified-styles/js/pennapps-scripts.min.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+
+</head>
+
+
+  <body>
+    <div class="splash">
+      <div class="center-block">
+        <h1>PennApps Mentoring</h1>
+      </div>
+    </div>
+    <nav id="navbar" class="pennapps-nav ">
+  <div class="container">
+    <div class="nav-header">
+      <a href="/">
+        <h1 class="nav-brand">PennApps Mentoring</h1>
+      </a>
+    </div>
+    <div class="nav-collapse">
+      <ul class="nav-links">
+        <li><a id="nav-slider" class="nav-slider"></a></li>
+        
+          <li><a href="#beginner-guides"><div class="bubble"></div>Beginner Guides</a></li>
+        
+          <li><a href="#the-dining-philosophers-partnership"><div class="bubble"></div>Dining Philosophers</a></li>
+        
+          <li><a href="#at-pennapps"><div class="bubble"></div>At PennApps</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+    <div class="container">
+      <p>We think hackathons should be about learning and meeting new people, so we’re here to make it happen. Read all about our initiatives, and join us for a new kind of mentoring experience!</p>
+
+<h2 id="beginner-guides">Beginner Guides</h2>
+<p>To help you learn to hack we have our archive of <a href="./TechTalks">tech talks</a> and <a href="./guide">content</a> developed by the team on lots of useful topics.</p>
+
+<h2 id="the-dining-philosophers-partnership">The Dining Philosophers Partnership</h2>
+
+<p>PennApps has teamed up with The Dining Philosophers to teach new hackers the basics of hacking! The Dining Philosophers has a bunch of homegrown workshops and tutorials on all sorts of useful subjects for new hackers like HTML, CSS, and Javascript. <a href="http://dinphil.github.io">Click here</a> to see all the information from the tutorials, including slides, and code samples. There are also ideas for good projects for new hackers.</p>
+
+<h2 id="at-pennapps">At PennApps</h2>
+
+<p>Before PennApps, you should sign up to be a <a href="https://docs.google.com/forms/d/1jTVRzgrWkAb4unBnGMJpPiAA-dQxm3yb3-FNhWPg8tw/viewform?usp=send_form">mentor</a>. At PennApps, you can request a mentor any time you want through <a href="https://my.pennapps.com/mentor">my.pennapps.com/mentor</a>.</p>
+
+<p>At PennApps there will be several events for our new hackers. Friday night, we’ll be having some intro to hacking talks on topics like HTML/CSS, <a href="https://www.youtube.com/watch?v=nNa1GEXQZJg">iOS</a>, <a href="https://www.youtube.com/watch?v=l1M1zBkxVX0">Arduino</a>, and web technologies. There will also be a team formation event on Friday. You’ll be able to find mentors in the Mentor Hub for most of the weekend!</p>
+
+    </div>
+
+    <footer>
+  <div class="center-block">
+    <div>
+    <img width="100px" src="http://2016s.pennapps.com/img/PennApps-white.png" />
+    <p>&copy; 2016 PennApps<br />Built using <a href="http://austineng.github.io/pennapps-unified-styles/">PennApps Unified Styles</a></p>
+    </div>
+  </div>
+</footer>
+
+    <script type="text/javascript">
+      nav.registerNav($('#navbar'), function () {
+        return $(window).scrollTop() + $('#navbar').height() > $(window).height();
+      });
+      nav.initializeNav($('#navbar'), -70);
+    </script>
+  </body>
+
+</html>
