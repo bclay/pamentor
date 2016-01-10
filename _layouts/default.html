@@ -1,0 +1,26 @@
+---
+navClass: fixed
+---
+
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    {% include navbar.html %}
+    <div class="container">
+      {{ content }}
+    </div>
+
+    {% include footer.html %}
+    
+    <script type="text/javascript">
+      nav.registerNav($('#navbar'), function () {
+        return $(window).scrollTop() + $('#navbar').height() > $(window).height();
+      });
+      nav.initializeNav($('#navbar'), 0);
+    </script>
+  </body>
+
+</html>

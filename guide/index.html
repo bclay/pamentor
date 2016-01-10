@@ -1,0 +1,99 @@
+---
+layout: titlePage
+splashTitle: Newbie Hacker Guide
+title: Hacker Guide
+
+navitems:
+  -
+    id: text-editors-section
+    name: Editors
+  -
+    id: htmlcss-section
+    name: HTML/CSS
+  -
+    id: git-section
+    name: Git
+  -
+    id: java-section
+    name: Java
+  -
+    id: python-section
+    name: Python
+  -
+    id: android-section
+    name: Android
+  -
+    id: ios-section
+    name: iOS
+  -
+    id: chrome-dev-tools-section
+    name: Chrome Dev Tools
+  -
+    id: nodejs-section
+    name: Node.js
+  -
+    id: jquery-section
+    name: jQuery
+---
+
+{% capture intro %}
+  {% include guide/intro.md %}
+{% endcapture %}
+{{ intro | markdownify }}
+
+{% capture TextEditors %}
+  {% include guide/TextEditors.md %}
+{% endcapture %}
+<section id="text-editors-section">{{ TextEditors | markdownify }}</section>
+
+{% capture HtmlCss %}
+  {% include guide/HtmlCss.md %}
+{% endcapture %}
+<section id="htmlcss-section">{{ HtmlCss | markdownify }}</section>
+
+{% capture Git %}
+  {% include guide/Git.md %}
+{% endcapture %}
+<section id="git-section">{{ Git | markdownify }}</section>
+
+{% capture Java %}
+  {% include guide/Java.md %}
+{% endcapture %}
+<section id="java-section">{{ Java | markdownify }}</section>
+
+{% capture Python %}
+  {% include guide/Python.md %}
+{% endcapture %}
+<section id="python-section">{{ Python | markdownify }}</section>
+
+{% capture Android %}
+  {% include guide/Android.md %}
+{% endcapture %}
+<section id="android-section">{{ Android | markdownify }}</section>
+
+{% capture iOS %}
+  {% include guide/iOS.md %}
+{% endcapture %}
+<section id="ios-section">{{ iOS | markdownify }}</section>
+
+{% capture Chrome %}
+  {% include guide/Chrome.md %}
+{% endcapture %}
+<section id="chrome-dev-tools-section">{{ Chrome | markdownify }}</section>
+
+{% capture Node %}
+  {% include guide/Node.md %}
+{% endcapture %}
+<section id="nodejs-section">{{ Node | markdownify }}</section>
+
+{% capture jQuery %}
+  {% include guide/jQuery.md %}
+{% endcapture %}
+<section id="jquery-section">{{ jQuery | markdownify }}</section>
+
+<script>
+nav.registerCollapse($('#navbar'), function() {
+  return $(window).width() <= 991;
+});
+nav.initializeCollapse();
+</script>
