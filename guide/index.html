@@ -1,7 +1,7 @@
 ---
 layout: titlePage
 splashTitle: Newbie Hacker Guide
-title: " "
+title: Hacker Guide
 
 navitems:
   -
@@ -90,3 +90,10 @@ navitems:
   {% include guide/jQuery.md %}
 {% endcapture %}
 <section id="jquery-section">{{ jQuery | markdownify }}</section>
+
+<script>
+nav.registerCollapse($('#navbar'), function() {
+  return $(window).width() <= 991;
+});
+nav.initializeCollapse();
+</script>
