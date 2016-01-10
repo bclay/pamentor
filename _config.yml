@@ -1,7 +1,7 @@
 # Site settings
 title: PennApps Mentoring
 description: ""
-baseurl: ""
+baseurl: "/mentoring"
 url: "http://pennapps.mentoring.com"
 
 # Build settings
