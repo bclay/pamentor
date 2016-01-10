@@ -26,3 +26,10 @@ PennApps has teamed up with The Dining Philosophers to teach new hackers the bas
 Before PennApps, you should sign up to be a [mentor](https://docs.google.com/forms/d/1jTVRzgrWkAb4unBnGMJpPiAA-dQxm3yb3-FNhWPg8tw/viewform?usp=send_form). At PennApps, you can request a mentor any time you want through [my.pennapps.com/mentor](https://my.pennapps.com/mentor).
 
 At PennApps there will be several events for our new hackers. Friday night, we'll be having some intro to hacking talks on topics like HTML/CSS, [iOS](https://www.youtube.com/watch?v=nNa1GEXQZJg), [Arduino](https://www.youtube.com/watch?v=l1M1zBkxVX0), and web technologies. There will also be a team formation event on Friday. You'll be able to find mentors in the Mentor Hub for most of the weekend!
+
+<script markdown="1">
+nav.registerCollapse($('#navbar'), function() {
+  return $(window).width() <= 767;
+});
+nav.initializeCollapse();
+</script>
