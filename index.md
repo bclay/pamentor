@@ -5,8 +5,8 @@ navitems:
     id: beginner-guides
     name: Beginner Guides
   -
-    id: mentor-pairing
-    name: Mentor Pairing
+    id: request-a-mentor
+    name: Request A Mentor
   -
     id: the-dining-philosophers-partnership
     name: Dining Philosophers
@@ -20,7 +20,7 @@ We think hackathons should be about learning and meeting new people, so we’re 
 ##Beginner Guides
 To help you learn to hack we have our archive of [tech talks](./TechTalks) and [content](./guide) developed by the team on lots of useful topics. 
 
-##Mentor Pairing
+##Request A Mentor
 
 + You submit a request online at [live.pennapps.com](live.pennapps.com) detailing your question or issue.
 
