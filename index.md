@@ -28,6 +28,7 @@ To help you learn to hack and learn new technologies, we have our archive of [te
 
 + The Mentorship team sends you an email with the mentor's contact information.
 Once you receive an email, please contact the mentor and arrange a place to meet. We suggest Mentorship Central, located in the Engineering Cafe (at area between Levine Hall and the Towne Building), as an easily identifiable location. If you have any questions, feel free to come to Mentorship Central and ask one of us for help.!
+
 ## Dining Philosophers Resources
 
 PennApps has teamed up with the Dining Philosophers (Penn's CS club) to teach new hackers the basics of hacking! The Dining Philosophers has a bunch of homegrown workshops and tutorials on all sorts of useful subjects for new hackers like HTML, CSS, and Javascript. [Click here](http://dinphil.github.io) to see all the information from the tutorials, including slides, and code samples. We particularly recommend the [Code Weekend](dinphil.github.io/code-weekend) series of workshops that are a brilliant intro to Web Development.
