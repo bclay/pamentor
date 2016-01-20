@@ -2,3 +2,38 @@
 	padding: 15px 10px;
 	font-size: 14px;
 }
+
+@media(max-width: 499px) {
+	.splash h1 {
+		font-size: 2.5em;
+	}
+}
+
+@media(max-width: 459px) {
+	.nav-brand {
+		width: 200px;
+	}
+}
+
+a.button {
+	background-color: #3390f1;
+	color: white;
+	padding: 15px;
+	border: 2px solid #3390f1;
+	border-radius: 10px;
+
+	width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 2em;
+
+    margin-top: 20px;
+
+    font-family: HalisR-Black;
+    text-transform: uppercase;
+}
+
+a.button:hover {
+	background-color: white;
+	color: #3390f1;
+}
