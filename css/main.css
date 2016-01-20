@@ -2,3 +2,15 @@
 	padding: 15px 10px;
 	font-size: 14px;
 }
+
+@media(max-width: 499px) {
+	.splash h1 {
+		font-size: 2.5em;
+	}
+}
+
+@media(max-width: 459px) {
+	.nav-brand {
+		width: 200px;
+	}
+}
