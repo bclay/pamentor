@@ -18,26 +18,25 @@ navitems:
 We think hackathons should be about learning and meeting new people, so we’re here to make it happen. Read all about our initiatives, and join us for a new kind of mentoring experience!
 
 ##Beginner Guides
-To help you learn to hack we have our archive of [tech talks](./TechTalks) and [content](./guide) developed by the team on lots of useful topics. 
+To help you learn to hack and learn new technologies, we have our archive of [tech talks](./TechTalks) and [content](./guide) developed by the team on lots of useful topics. 
 
 ##Request A Mentor
 
-+ You submit a request online at [live.pennapps.com](live.pennapps.com) detailing your question or issue.
++ You submit a request online at [my.pennapps.com/mentor](my.pennapps.com/mentor) detailing your question or issue. You will need to be logged in to see the page.
 
 + The PennApps Mentorship team receives the request and finds an available mentor that we believe fits your needs.
 
 + The Mentorship team sends you an email with the mentor's contact information.
-Once you receive an email, please contact the mentor and arrange a place to meet. We suggest Mentorship Central, located in the Engineering Cafe, as an easily identifiable location. If you have any questions, feel free to come to Mentorship Central.
+Once you receive an email, please contact the mentor and arrange a place to meet. We suggest Mentorship Central, located in the Engineering Cafe (at area between Levine Hall and the Towne Building), as an easily identifiable location. If you have any questions, feel free to come to Mentorship Central and ask one of us for help.!
+## Dining Philosophers Resources
 
-##The Dining Philosophers Partnership
+PennApps has teamed up with the Dining Philosophers (Penn's CS club) to teach new hackers the basics of hacking! The Dining Philosophers has a bunch of homegrown workshops and tutorials on all sorts of useful subjects for new hackers like HTML, CSS, and Javascript. [Click here](http://dinphil.github.io) to see all the information from the tutorials, including slides, and code samples. We particularly recommend the [Code Weekend](dinphil.github.io/code-weekend) series of workshops that are a brilliant intro to Web Development.
 
-PennApps has teamed up with The Dining Philosophers to teach new hackers the basics of hacking! The Dining Philosophers has a bunch of homegrown workshops and tutorials on all sorts of useful subjects for new hackers like HTML, CSS, and Javascript. [Click here](http://dinphil.github.io) to see all the information from the tutorials, including slides, and code samples. There are also ideas for good projects for new hackers.
+## Workshops at PennApps
 
-##At PennApps
+At PennApps there will be several events for our new hackers. Friday night, we'll be having some intro to hacking talks on topics like web design, Android, [iOS](https://www.youtube.com/watch?v=nNa1GEXQZJg), [Arduino](https://www.youtube.com/watch?v=l1M1zBkxVX0), Civic Hacking and Design. There will be even more workshops Saturday afternoon on Ruby, Gotta code 'em all, and deploying your apps to the Appstore or the web through Heroku. 
 
-Before PennApps, you should sign up to be a [mentor](https://docs.google.com/forms/d/1jTVRzgrWkAb4unBnGMJpPiAA-dQxm3yb3-FNhWPg8tw/viewform?usp=send_form). At PennApps, you can request a mentor any time you want through [my.pennapps.com/mentor](https://my.pennapps.com/mentor).
-
-At PennApps there will be several events for our new hackers. Friday night, we'll be having some intro to hacking talks on topics like HTML/CSS, [iOS](https://www.youtube.com/watch?v=nNa1GEXQZJg), [Arduino](https://www.youtube.com/watch?v=l1M1zBkxVX0), and web technologies. There will also be a team formation event on Friday. You'll be able to find mentors in the Mentor Hub for most of the weekend!
+There will also be a team formation event on Friday for both Hacker Guru teams and regualr teams. You'll be able to find mentors in the Mentor Hub (Engineering Cafe) for most of the weekend!
 
 <script markdown="1">
 nav.registerCollapse($('#navbar'), function() {
