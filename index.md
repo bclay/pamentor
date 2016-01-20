@@ -39,6 +39,10 @@ At PennApps there will be several events for our new hackers. Friday night, we'l
 
 There will also be a team formation event on Friday for both Hacker Guru teams and regualr teams. You'll be able to find mentors in the Mentor Hub (Engineering Cafe) for most of the weekend!
 
+## Other [Resources](pennapps.com/resources)
+
+You can find other resources for Routes and from our sponsors at  our [Resources Page](pennapps.com/resources).
+
 <script markdown="1">
 nav.registerCollapse($('#navbar'), function() {
   return $(window).width() <= 767;
