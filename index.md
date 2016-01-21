@@ -18,7 +18,7 @@ navitems:
 We think hackathons should be about learning and meeting new people, so we’re here to make it happen. Read all about our initiatives, and join us for a new kind of mentoring experience!
 
 
-##Beginner Guides
+##[Beginner Guides](//mentoring.pennapps.com/guide)
 To help you learn to hack and learn new technologies, we have our archive of tech talks and guides developed by the team on lots of useful topics. 
 
 <div style="padding: 0px 15px" markdown="1">
