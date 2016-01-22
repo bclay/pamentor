@@ -2,7 +2,7 @@
 layout: titlePage
 navitems:
   -
-    id: beginner-guides
+    id: beginner-guidesmentoringpennappscomguide
     name: Beginner Guides
   -
     id: request-a-mentormypennappscommentor
@@ -19,7 +19,7 @@ We think hackathons should be about learning and meeting new people, so we’re 
 
 
 ##[Beginner Guides](//mentoring.pennapps.com/guide)
-To help you learn to hack and learn new technologies, we have our archive of tech talks and guides developed by the team on lots of useful topics. 
+To help you learn to hack and learn new technologies, we have our archive of tech talks and guides developed by the team on lots of useful topics.
 
 <div style="padding: 0px 15px" markdown="1">
 <div class="row">
@@ -48,7 +48,7 @@ PennApps has teamed up with the Dining Philosophers (Penn's CS club) to teach ne
 
 ## Workshops at PennApps
 
-At PennApps there will be several events for our new hackers. Friday night, we'll be having some intro to hacking talks on topics like web design, Android, [iOS](https://www.youtube.com/watch?v=nNa1GEXQZJg), [Arduino](https://www.youtube.com/watch?v=l1M1zBkxVX0), Civic Hacking and Design. There will be even more workshops Saturday afternoon on Ruby, Gotta code 'em all, and deploying your apps to the Appstore or the web through Heroku. 
+At PennApps there will be several events for our new hackers. Friday night, we'll be having some intro to hacking talks on topics like web design, Android, [iOS](https://www.youtube.com/watch?v=nNa1GEXQZJg), [Arduino](https://www.youtube.com/watch?v=l1M1zBkxVX0), Civic Hacking and Design. There will be even more workshops Saturday afternoon on Ruby, Gotta code 'em all, and deploying your apps to the Appstore or the web through Heroku.
 
 There will also be a team formation event on Friday for both Hacker Guru teams and regualr teams. You'll be able to find mentors in the Mentor Hub (Engineering Cafe) for most of the weekend!
 
