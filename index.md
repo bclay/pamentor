@@ -34,6 +34,7 @@ To help you learn to hack and learn new technologies, we have our archive of tec
 </div>
 
 ##[Request A Mentor](//my.pennapps.com/mentor)
++ **The mentorship pairing system will be live from Friday 8pm to Saturday 2am and from Saturday 8am to Sunday 2am. Please make sure to submit your mentor request during this time so that you will be successfully matched to a mentor.**
 
 + You submit a request online at [my.pennapps.com/mentor](//my.pennapps.com/mentor) detailing your question or issue. You will need to be logged in to see the page.
 
