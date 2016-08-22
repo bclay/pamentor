@@ -14,7 +14,7 @@ CSS dresses up this information. Most (but really all) webpages link to a CSS fi
 
 Javascript is the fun part. It does dynamic things with your webpage, updates content on the fly and can animate just about anything. We'll talk about this later.
 
-HTML 
+HTML
 -------------------------
 
 HTML stands for HyperText Markup Lanuage. It is HyperText because it hyperlinks you to other text. It is a markup language because it is not written as plain text. It is marked up into the form of HTML elements called tags.
@@ -29,7 +29,7 @@ Every webpage is built in the HTML DOM (Document Object Model). This means that 
 CSS
 ------------------------------------
 
-####Does your website have style?
+#### Does your website have style?
 
 
 CSS is a really funny language with a lot of oddities. I'll go through a few of them here:
@@ -66,7 +66,7 @@ If you want to change a box color, alter the _background_ property. Text color c
 
 #### Aligning
 
-Just like a Word document, you can align text and objects to the left, right, or center of a page. 
+Just like a Word document, you can align text and objects to the left, right, or center of a page.
 
 #### Floating
 
@@ -87,22 +87,22 @@ Yes, you can actually animate your CSS code. Below is an animation that causes a
 
 Keyframes are just different snapshots of your animation. In the blinking example, the original keyframe is a white circle, and the second keyframe is a red circle.
 
-###Bootstrap
+### Bootstrap
 
-####The easiest shortcut to good design
+#### The easiest shortcut to good design
 
 
 Poke around on [Bootstrap](http://getbootstrap.com/). There are two main ways to use it in a website.
 
-- _Borrow Elements_: You can use [page elements](http://getbootstrap.com/components/) straight from Bootstrap, such as buttons, navigation bars, search bars, et cetera. 
+- _Borrow Elements_: You can use [page elements](http://getbootstrap.com/components/) straight from Bootstrap, such as buttons, navigation bars, search bars, et cetera.
 
 - _Adapt a Template_: You can take entire templates built by Bootstrap and change them for your own purposes. This can be accomplished by opening the template, right-clicking, and saving the page as an html file.
 
 You're welcome to download Bootstrap, but it's probably easier just to link to the website you want (or download just the files you want off the Internet).
 
-###Resources
+### Resources
 
-####Time to realize that thievery isn't always wrong
+#### Time to realize that thievery isn't always wrong
 
 There are tons of resources out there to help with CSS and design:
 

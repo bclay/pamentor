@@ -18,7 +18,7 @@ navitems:
 We think hackathons should be about learning and meeting new people, so we’re here to make it happen. Read all about our initiatives, and join us for a new kind of mentoring experience!
 
 
-##[Beginner Guides](//mentoring.pennapps.com/guide)
+## [Beginner Guides](//mentoring.pennapps.com/guide)
 To help you learn to hack and learn new technologies, we have our archive of tech talks and guides developed by the team on lots of useful topics.
 
 <div style="padding: 0px 15px" markdown="1">
@@ -33,7 +33,7 @@ To help you learn to hack and learn new technologies, we have our archive of tec
 </div>
 </div>
 
-##[Request A Mentor](//my.pennapps.com/mentor)
+## [Request A Mentor](//my.pennapps.com/mentor)
 + **The mentorship pairing system will be live from Friday 8pm to Saturday 2am and from Saturday 8am to Sunday 2am. Please make sure to submit your mentor request during this time so that you will be successfully matched to a mentor.**
 
 + You submit a request online at [my.pennapps.com/mentor](//my.pennapps.com/mentor) detailing your question or issue. You will need to be logged in to see the page.
@@ -53,7 +53,7 @@ At PennApps there will be several events for our new hackers. Friday night, we'l
 
 There will also be a team formation event on Friday for both Hacker Guru teams and regualr teams. You'll be able to find mentors in the Mentor Hub (Engineering Cafe) for most of the weekend!
 
-## Other [Resources](//pennapps.com/resources)
+## [Other Resources](//pennapps.com/resources)
 
 You can find other resources for Routes and from our sponsors at  our [Resources Page](//pennapps.com/resources).
 
