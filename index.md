@@ -37,6 +37,8 @@ To help you learn to hack and learn new technologies, we have our archive of tec
 
 #### Through the PennApps Slack (our recommended way to find mentors!):
 
+**If you've checked in, you should already have an invitation. If you aren't on the PennApps Slack or haven't been invited, email mentoring@pennapps.com.**
+
 1. Go to the Mentor Bot channel and type `@mentorbot` followed by your question.
 2. Mentor Bot will prompt you to add relevant tags to your question (e.g. #node.js #azure)
 3. Your question will be sent to all available mentors! If a mentor can help you, they will pick up your question and you will be put into a private group chat with the mentor.
