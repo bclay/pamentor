@@ -33,15 +33,18 @@ To help you learn to hack and learn new technologies, we have our archive of tec
 </div>
 </div>
 
-## Request A Mentor
+## Get Help
 
-#### Through the PennApps Slack (our recommended way to find mentors!):
+#### Through our QA System (our recommended way to get help!):
+
+1. Visit qa.pennapps.com and make an account!
+2. Go ahead and ask any question! Companies and mentors will be monitoring this site to provide help. It works very similarly to Stack Overflow!
+
+#### Through the PennApps Slack:
 
 **If you've checked in, you should already have an invitation. If you aren't on the PennApps Slack or haven't been invited, email mentoring@pennapps.com.**
 
-1. Go to the Mentor Bot channel and type `@mentorbot` followed by your question.
-2. Mentor Bot will prompt you to add relevant tags to your question (e.g. #node.js #azure)
-3. Your question will be sent to all available mentors! If a mentor can help you, they will pick up your question and you will be put into a private group chat with the mentor.
+1. Many companies will have slack channels! Feel free to check those out.
 
 #### Through the Pairing System
 1. Fill out the form at my.pennapps.com/mentor, detailing your question. You will need to be logged in to see the page.
