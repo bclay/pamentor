@@ -5,10 +5,10 @@ iOS
 Developing apps for Apple's mobile platform
 --------------------------
 
-###What is iOS?
+### What is iOS?
 iOS is mobile operating system used on all Apple mobile devices. Because of this, it is second only to Android in terms of mobile OS popularity. As such, it is a very popular platform to build and develop apps. iPhone applications are written in Objective-C.
 
-###Resources
+### Resources
 
 [Apple documentation](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Introduction/Introduction.html)
 
