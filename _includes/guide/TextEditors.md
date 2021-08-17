@@ -16,7 +16,7 @@ For a few more advanced Sublime Text tips and shortcuts to enhance your producti
 
 You can also check out a few more [advanced Sublime tips](http://www.webdesignermag.co.uk/inspiration/10-must-know-sublime-text-2-tips/). 
 
-###Resources
+**Resources**
 
 [Beginner’s guide](https://www.loginradius.com/blog/async/beginners-guide-for-sublime-text/)
 [Comprehensive tutorial of sublime text for beginners](https://www.tutorialspoint.com/sublime_text/index.htm)
@@ -24,3 +24,6 @@ You can also check out a few more [advanced Sublime tips](http://www.webdesigner
 [Installing packages](https://packagecontrol.io/installation)
 [Advanced tips/shortcuts](https://generalassemb.ly/blog/sublime-text-3-tips-tricks-shortcuts/)
 [Search bar](https://packagecontrol.io/search)
+
+
+

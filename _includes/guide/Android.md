@@ -14,3 +14,5 @@ Resources
 If you’d like to install eclipse, a great way to build Java and Android apps, [go here](http://www.eclipse.org/downloads/)
 
 [This](http://www.codeproject.com/Articles/102065/Android-A-beginner-s-guide) is a great beginner guide to Android!
+
+[Beginner guide to Kotlin](https://developer.android.com/courses/android-basics-kotlin/course)

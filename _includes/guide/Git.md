@@ -6,7 +6,7 @@ Version control for the rest of us
 
 ### What is Git
 
-Git is the tool that handles your version control, Github is the online repository where you store all your files. Version control records specific changes to a file or a set of files over time so that you can access specific versions later. Github stores these versions on the cloud. Since you can add multiple people to a Github repository, it's also an excellent way to collaborate with others on projects. You should try this awesome simulation-version of this tutorial [here](try.github.io). Then you should make your Github [account](https://github.com/join) with your school email.
+Git is the tool that handles your version control, Github is the online repository where you store all your files. Version control records specific changes to a file or a set of files over time so that you can access specific versions later. Github stores these versions on the cloud. Since you can add multiple people to a Github repository, it's also an excellent way to collaborate with others on projects. You should try this awesome simulation-version of this tutorial [here](https://docs.github.com/en/get-started/quickstart/set-up-git). Then you should make your Github [account](https://github.com/join) with your school email.
 
 To install git on Mac:
 - Use spotlight search to find and open terminal.
@@ -40,14 +40,14 @@ Now that we have a basic understanding of Terminal and Unix commands we can set 
 
 ### Repositories
 
-As said before, a repository is where your code is stored on Github. You can make a repsoitory following [instructions](https://help.github.com/articles/create-a-repo). You can also see instructions on how to commit a change from Github itself.
+As said before, a repository is where your code is stored on Github. You can make a repository following [instructions](https://help.github.com/articles/create-a-repo). You can also see instructions on how to commit a change from Github itself.
 
 #### How to Add Changes Using Terminal
-This assumes that you have setup a SSH keypair with your computer.
+This assumes that you have set up a SSH keypair with your computer.
 
 - Go to your repository on Github.
 - Go to the bottom right of the repository screen where it says SSH clone URL and click on the clipboard icon.
-- Go to terminal and change your directory using Unix commands (`cd`) to where you want to keep the repository.
+- Go to Terminal and change your directory using Unix commands (`cd`) to where you want to keep the repository.
 - Now type git clone, then paste the SSH clone url, and press enter.
 - Move any files that you have created that you would like to be a part of this repository to this folder.
 - When all files are added, go back to terminal.
@@ -58,11 +58,11 @@ This assumes that you have setup a SSH keypair with your computer.
 If you check your Github, you will see that the files have been updated and/or added.
 
 #### Fork a Repository
-Forking a repository is something you'll want to be able to do to collaborate with others on repositories. Github's instructions on forking a repository are [here](https://help.github.com/articles/fork-a-reop).
+Forking a repository is something you'll want to be able to do to collaborate with others on repositories. Github's instructions on forking a repository are [here](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
 
 Their instructions also walk you through creating a branch. All files in a repository automatically end up in the master branch. However, if you would like to make some changes to the main code without damaging parts of the code that are working then you can create another branch and later merge it. When you're done making edits you can merge this other branch with the master branch again.
 
-[Go to](http://try.github.com/levels/1/challenges/10) to do more interactive tutorials!
+[Go to](http://try.github.com/levels/1/challenges/10) do more interactive tutorials!
 
 ### Webpage Hosting
 
@@ -70,4 +70,4 @@ Webpage hosting is what actually puts your website on the internet. Many places 
 
 
 ### Resources
-[Here](http://rogerdu...io/git-guide/) is another excellent guide to Git!
+[Here](https://rogerdudler.github.io/git-guide/) is another excellent guide to Git!
