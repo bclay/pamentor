@@ -65,9 +65,10 @@ Once you receive an email, please contact the mentor and arrange a place to meet
 ## Workshops at PennApps
 
 
-At PennApps, we host several events for both our new and experienced hackers. Friday night, we will have intro to hacking talks on topics like Civic Hacking, User Centered Design, Intro to Web Dev, Android, and iOS. We also have additional workshops on Saturday afternoon on the topics of Machine Learning APIs, Data Innovation and Its Role in Healthcare, Hardware, Ruby, and What Investors Don't Tell You About Pitching. [You can find the schedule here](http://2016f.pennapps.com/files/2016f_program.pdf).
+At PennApps, we host several events for both our new and experienced hackers. Friday night, we will have intro to hacking talks on topics like Bitcoin, Modular Open Scalable Architecture, Java, Networking & Internships, and Embedded Systems. We also have additional workshops on Saturday on the topics of React, Deep Learning, Entrepreneuarship, and Product Design. [You can find the schedule here](https://wild-router-277.notion.site/PennApps-XXII-c2d841ea69374a4481f2da54e8f2ae95).
 
-There will be a team formation event on Friday night for both Hacker Guru teams and regular teams. A women’s meetup will occur on Saturday as well. Times and locations for the workshops can be found in your program or under logistics on pennapps.com. You can also find mentors in the Mentor Hub (Engineering Cafe) for most of the weekend!
+There will be a team formation and mentor meet-up event on Friday night for both Hacker Guru teams and regular teams. Times and locations for the workshops can be found in the schedule above. You can also message mentors on Piazza for most of the weekend!
+
 
 ## [Dining Philosophers](http://dinphil.github.io) Resources
 
